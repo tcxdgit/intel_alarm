@@ -1,0 +1,64 @@
+From 2020-06-10 19:42:00 to 2020-06-10 19:42:59, device 192.28.200.201 encoutered
+the following events:
+    1. Ten-GigabitEthernet5/2/2.2 down
+    2. Ten-GigabitEthernet5/2/2.3 down
+    3. Ten-GigabitEthernet5/2/2.1 down
+    4. Ten-GigabitEthernet11/2/1 down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-10 19:42:00 to 2020-06-10 19:42:59, device 212.1.1.210 encoutered
+the following events:
+    1. Fan 1 is absent.
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-10 19:42:00 to 2020-06-10 19:42:59, device 212.1.1.209 encoutered
+the following events:
+    1. Fan 2 is absent.
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-10 19:44:00 to 2020-06-10 19:44:59, device 192.28.200.201 encoutered
+the following events:
+    1. transceiver on Ten-GigabitEthernet1/2/0/23 is NOT sold by H3C
+    2. interface Tunnel4 changed to up
+    3. interface Tunnel4 occurs Down and UP
+which might have impacts on
+    1. Flow stability on Ten-GigabitEthernet1/2/0/23
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-10 19:45:00 to 2020-06-10 19:45:59, device 192.28.200.201 encoutered
+the following events:
+    1. Physical state on the interface Tunnel4 Flapping
+    2. transceiver on Ten-GigabitEthernet1/2/0/23 is NOT sold by H3C
+    3. interface Tunnel4 changed to up
+which might have impacts on
+    1. Interval interrupt on interface Tunnel4
+    2. Flow stability on Ten-GigabitEthernet1/2/0/23
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-10 19:46:00 to 2020-06-10 19:46:59, device 192.28.200.201 encoutered
+the following events:
+    1. Vlan-interface11 down
+    2. OSPF 1 Neighbor 11.1.1.1(11) down
+    3. HundredGigE1/4/0/1 down
+which might have impacts on
+    1. OSPF neighbor down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-10 19:47:00 to 2020-06-10 19:47:59, device 192.28.200.201 encoutered
+the following events:
+    1. Fan 1 failed.
+    2. Vlan-interface4094 down
+    3. Slot 2 Rebooting
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-10 19:48:00 to 2020-06-10 19:48:59, device 192.28.200.201 encoutered
+the following events:
+    1. Many MAC addresses has moved from port XGE4/0/5:1 to port XGE4/0/5:2
+++++++++++++++++++++++++++++++++++++
