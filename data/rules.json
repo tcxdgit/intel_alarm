@@ -1,15 +1,15 @@
 [
   {
     "rule_id":1,
-    "rule_name":"IFNET_PORT_PHY_UPDOWN -> IFNET_PORT_LINK_UPDOWN",
+    "rule_name":"IFNET_SUBINF_PHY_UPDOWN -> IFNET_SUBINF_LINK_UPDOWN",
     "description": "接口的物理层down导致链路层down",
     "correlation_mode":"fatherSon",
     "is_enable":"true",
     "create_by": "system",
     "create_time": "2020-08-26 14:28:06",
-    "fatherWarn": "IFNET_PORT_PHY_UPDOWN",
-    "sonWarn": ["IFNET_PORT_LINK_UPDOWN"],
-    "allWarnings": ["IFNET_PORT_PHY_UPDOWN","IFNET_PORT_LINK_UPDOWN"],
+    "fatherWarn": "IFNET_SUBINF_PHY_UPDOWN",
+    "sonWarn": ["IFNET_SUBINF_LINK_UPDOWN"],
+    "allWarnings": ["IFNET_SUBINF_PHY_UPDOWN","IFNET_SUBINF_LINK_UPDOWN"],
     "satisfy":["warn1.NE==warn2.NE", "warn1.parameters.status==warn2.parameters.status"],
     "timeRange": 10
   },
