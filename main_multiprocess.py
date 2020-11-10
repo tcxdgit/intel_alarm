@@ -58,6 +58,7 @@ def print_summary(summary):
         warning_set_summary = 'From {0} to {1}, device {2} encoutered \nthe following events:\n'.format(start_time, end_time,
                                                                                                         value['device'])
         events = value.get('events')
+        # print(events)
         for i in range(len(events)):
             warning_set_summary += '    ' + (str(i + 1) + '. ' + events[i] + '\n')
         influences = value.get('influences')

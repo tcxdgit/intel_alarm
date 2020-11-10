@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5a476ea-2918-4714-b80e-5f57a8843fc8" name="Default Changelist" comment="" />
+    <list default="true" id="e5a476ea-2918-4714-b80e-5f57a8843fc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarningMatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/WarningMatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/demo_multi_window.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/demo_multi_window.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output_log_for_matched_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/output_log_for_matched_results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output_summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/output_summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/rules.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/logParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_multiprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_multiprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_warning_modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_warning_modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort_rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort_rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,13 +24,14 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Intel_alarm$main_real_time.coverage" NAME="main_real_time Coverage Results" MODIFIED="1599124006080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Intel_alarm$test.coverage" NAME="test Coverage Results" MODIFIED="1599447340037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Intel_alarm$sort_rule.coverage" NAME="sort_rule Coverage Results" MODIFIED="1601016110698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Intel_alarm$logParser_new.coverage" NAME="logParser_new Coverage Results" MODIFIED="1604978395344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Intel_alarm$sort_rule.coverage" NAME="sort_rule Coverage Results" MODIFIED="1604989745839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Intel_alarm$group_data.coverage" NAME="group_data Coverage Results" MODIFIED="1598259236513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Intel_alarm$try.coverage" NAME="try Coverage Results" MODIFIED="1599189079289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Intel_alarm$pytest_in_logParser_py.coverage" NAME="pytest in logParser.py Coverage Results" MODIFIED="1600856702080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Intel_alarm$pytest_in_logParser_py.coverage" NAME="pytest in logParser.py Coverage Results" MODIFIED="1604972596941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Intel_alarm$main.coverage" NAME="main Coverage Results" MODIFIED="1599613026241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Intel_alarm$main_multiprocess.coverage" NAME="main_multiprocess Coverage Results" MODIFIED="1600420521202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Intel_alarm$logParser.coverage" NAME="logParser Coverage Results" MODIFIED="1601015502237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Intel_alarm$main_multiprocess.coverage" NAME="main_multiprocess Coverage Results" MODIFIED="1603073222998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Intel_alarm$logParser.coverage" NAME="logParser Coverage Results" MODIFIED="1604972607707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="451683032">
@@ -68,32 +82,41 @@
     <session id="1451831573">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="1" />
-          <entry key="py" value="9" />
-          <entry key="txt" value="4" />
+          <entry key="json" value="3" />
+          <entry key="py" value="22" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="9" />
+          <entry key="JSON" value="3" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="Python Console" value="160" />
+          <entry key="json" value="508" />
+          <entry key="py" value="4637" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="JSON" value="508" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Python" value="4797" />
         </counts>
       </usages-collector>
     </session>
@@ -103,8 +126,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="577" lean-forward="true" selection-start-line="577" selection-end-line="577" />
+            <state relative-caret-position="2281">
+              <caret line="631" column="60" lean-forward="true" selection-start-line="631" selection-start-column="60" selection-end-line="631" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#10420#14279#0" />
+                <element signature="e#17705#17722#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logParser_new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="324" lean-forward="true" selection-start-line="324" selection-end-line="324" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -115,8 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/rules.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="172" column="37" lean-forward="true" selection-start-line="172" selection-start-column="37" selection-end-line="172" selection-end-column="37" />
+            <state relative-caret-position="688">
+              <caret line="205" column="42" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -124,8 +161,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort_rule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+              <folding>
+                <marker date="1604719078952" expanded="true" signature="1054:1055" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,17 +173,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_warning_modules.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="102">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/output_summary.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WarningMatch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1113">
+              <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/output_log_for_matched_results.txt">
+        <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="1" column="574" lean-forward="true" selection-start-line="1" selection-start-column="574" selection-end-line="1" selection-end-column="574" />
+            <state relative-caret-position="333">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,15 +223,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>popen</find>
-      <find>class popen</find>
-      <find>pipeline</find>
-      <find>mk</find>
-      <find>register_table_source</find>
-      <find>logTime</find>
-      <find>print</find>
-      <find>freq</find>
+      <find>DRNI</find>
+      <find>event</find>
+      <find>OSPF</find>
+      <find>OSPF_NBR_CHG_REASON</find>
+      <find>{} down</find>
+      <find>PHY_updown</find>
+      <find>LINK_updown</find>
+      <find>Many MAC addresses has moved from port XGE4/0/5:1 to port XGE4/0/5:2</find>
+      <find>d3e17f39</find>
+      <find>e9fb824a-a108-4ddd-8aa9-d36f57ef0479</find>
+      <find>7cfb4ecf-f7e3-4ee1-9c23-b4227ec792ab</find>
+      <find>create_new_warning</find>
+      <find>PHY_UPDOWN</find>
+      <find>LINK_UPDOWN</find>
+      <find>abstract</find>
+      <find>m_slot</find>
+      <find>OSPFv3</find>
+      <find>DEV_BOARD_REBOOT</find>
+      <find>intvlan_link_updown</find>
+      <find>IFNET_INTVLAN_LINK_UPDOWN</find>
+      <find>BFD_CHANGE_FSM</find>
+      <find>OSPFv3_NBR_CHG</find>
+      <find>OSPFv3_OSPFv3_NBR_CHG</find>
+      <find>OSPFv3_OSPFv3_LAST_NBR_DOWN</find>
+      <find>PIM_NBR_DOWN</find>
+      <find>l3Inf</find>
+      <find>LAGG_INACTIVE_PHYSTATE</find>
+      <find>STP_NOTIFIED_TC</find>
+      <find>LLDP_DELETE_NEIGHBOR</find>
+      <find>IFNET_PORT_LINK_UPDOWN</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,19 +275,22 @@
         <option value="$PROJECT_DIR$/data/grouped_demo_data_in_list.txt" />
         <option value="$PROJECT_DIR$/data/grouped_demo_data_in_list_multi_window.txt" />
         <option value="$PROJECT_DIR$/syslog_filters.py" />
-        <option value="$PROJECT_DIR$/logParser.py" />
         <option value="$PROJECT_DIR$/data/222" />
-        <option value="$PROJECT_DIR$/data/demo_multi_window.txt" />
         <option value="$PROJECT_DIR$/data/newLog.json" />
-        <option value="$PROJECT_DIR$/utils.py" />
-        <option value="$PROJECT_DIR$/new_warning_modules.py" />
         <option value="$PROJECT_DIR$/group_data.py" />
+        <option value="$PROJECT_DIR$/data/111" />
+        <option value="$PROJECT_DIR$/WarningMatch.py" />
         <option value="$PROJECT_DIR$/scratch.py" />
         <option value="$PROJECT_DIR$/main_multiprocess.py" />
-        <option value="$PROJECT_DIR$/data/111" />
         <option value="$PROJECT_DIR$/data/output_summary.txt" />
-        <option value="$PROJECT_DIR$/WarningMatch.py" />
+        <option value="$PROJECT_DIR$/data/demo_multi_window.txt" />
+        <option value="$PROJECT_DIR$/new_warning_modules.py" />
+        <option value="$PROJECT_DIR$/data/rules.json" />
         <option value="$PROJECT_DIR$/sort_rule.py" />
+        <option value="$PROJECT_DIR$/logParser.py" />
+        <option value="$PROJECT_DIR$/logParser_new.py" />
+        <option value="$PROJECT_DIR$/data/new_rules.json" />
+        <option value="$PROJECT_DIR$/utils.py" />
       </list>
     </option>
   </component>
@@ -209,11 +301,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1592" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="x" value="1591" />
+    <option name="y" value="-9" />
+    <option name="width" value="2578" />
+    <option name="height" value="1458" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -250,6 +343,12 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\share\Intel_alarm" />
+      <recent name="D:\share\Intel_alarm\data" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -285,7 +384,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logParser_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Intel_alarm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,7 +397,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logParser_new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,19 +467,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.main_multiprocess" />
       <item itemvalue="Python tests.pytest in logParser.py" />
       <item itemvalue="Python.logParser" />
       <item itemvalue="Python.sort_rule" />
+      <item itemvalue="Python.logParser_new" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.sort_rule" />
+        <item itemvalue="Python.logParser_new" />
         <item itemvalue="Python.logParser" />
         <item itemvalue="Python tests.pytest in logParser.py" />
         <item itemvalue="Python.main_multiprocess" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -404,19 +503,36 @@
     <history-entry file="pytest_in_logParser_py - 2020.09.23 at 18h 25m 02s.xml">
       <configuration name="pytest in logParser.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_logParser_py - 2020.10.16 at 11h 11m 02s.xml">
+      <configuration name="pytest in logParser.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_logParser_py - 2020.10.16 at 15h 11m 35s.xml">
+      <configuration name="pytest in logParser.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_logParser_py - 2020.10.16 at 16h 35m 40s.xml">
+      <configuration name="pytest in logParser.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_logParser_py - 2020.11.06 at 16h 44m 49s.xml">
+      <configuration name="pytest in logParser.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_logParser_py - 2020.11.06 at 16h 58m 46s.xml">
+      <configuration name="pytest in logParser.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_logParser_py - 2020.11.10 at 09h 43m 17s.xml">
+      <configuration name="pytest in logParser.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2578" height="1410" extended-state="6" />
+    <frame x="1591" y="-9" width="2578" height="1458" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.21485624" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.1773163" />
       <window_info id="Structure" order="1" sideWeight="0.5027322" side_tool="true" weight="0.17638889" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Pylint" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285528" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5290611" visible="true" weight="0.3523733" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925485" weight="0.31014493" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5290611" visible="true" weight="0.27631578" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925485" weight="0.30959752" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -424,8 +540,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007452" side_tool="true" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32841823" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32954547" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.59829724" />
+      <window_info anchor="bottom" id="Pylint" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -467,11 +584,15 @@
           <line>16</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scratch.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/demo_data_with_NE_format_intTime.txt" />
     <entry file="file://$PROJECT_DIR$/grouped_data.txt" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/subprocess.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pyflink/dataset/execution_environment.py" />
@@ -503,13 +624,6 @@
     <entry file="file://$PROJECT_DIR$/main_real_time.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/multiprocessing/process.py" />
     <entry file="file://$PROJECT_DIR$/grouped_demo_data_0916.txt" />
-    <entry file="file://$PROJECT_DIR$/data/demo_multi_window.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/newLog.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -517,42 +631,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="123" column="13" lean-forward="true" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/matched_data_from_kafka.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/group_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1600323580927" expanded="true" signature="0:1" ph="..." />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/network_element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,30 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WarningMatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1103">
-          <caret line="294" column="57" selection-start-line="294" selection-start-column="57" selection-end-line="294" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/send_demo_to_kafka.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1019">
           <caret line="53" column="73" lean-forward="true" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/output_summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -604,65 +672,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_multiprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="236" column="119" lean-forward="true" selection-start-line="236" selection-start-column="119" selection-end-line="236" selection-end-column="119" />
-          <folding>
-            <element signature="e#1#16#0" expanded="true" />
-            <element signature="e#7931#7948#0" />
-            <marker date="1600393696128" expanded="true" signature="571:572" ph="..." />
-            <marker date="1600393696128" expanded="true" signature="1686:2681" ph="..." />
-            <marker date="1600393696128" expanded="true" signature="7925:7931" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/syslog_filters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/output_mergerd_group.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_multiprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="43" />
           <folding>
-            <marker date="1599727884547" expanded="true" signature="789:794" ph="..." />
+            <element signature="e#1#16#0" expanded="true" />
+            <marker date="1602919874527" expanded="true" signature="571:572" ph="..." />
+            <marker date="1602919874527" expanded="true" signature="1686:2705" ph="..." />
+            <marker date="1602919874527" expanded="true" signature="7949:7955" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logParser.py">
+    <entry file="file://$PROJECT_DIR$/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="577" lean-forward="true" selection-start-line="577" selection-end-line="577" />
+        <state relative-caret-position="357">
+          <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/output_log_for_matched_results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1244" selection-start-column="1244" selection-end-column="1244" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/demo_multi_window.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/output_summary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarningMatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_rsz.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="205" column="42" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:////RDVDI-R22837V/share/Intel_alarm/logParser_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort_rule.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/201831395/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        <state relative-caret-position="405">
+          <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/rules.json">
+    <entry file="file://$PROJECT_DIR$/logParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="172" column="37" lean-forward="true" selection-start-line="172" selection-start-column="37" selection-end-line="172" selection-end-column="37" />
+        <state relative-caret-position="2281">
+          <caret line="631" column="60" lean-forward="true" selection-start-line="631" selection-start-column="60" selection-end-line="631" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#10420#14279#0" />
+            <element signature="e#17705#17722#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort_rule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+          <folding>
+            <marker date="1604719078952" expanded="true" signature="1054:1055" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/new_rules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="381" column="36" selection-start-line="381" selection-start-column="36" selection-end-line="381" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logParser_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="324" lean-forward="true" selection-start-line="324" selection-end-line="324" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_warning_modules.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="102">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/output_log_for_matched_results.txt">
+    <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="1" column="574" lean-forward="true" selection-start-line="1" selection-start-column="574" selection-end-line="1" selection-end-column="574" />
+        <state relative-caret-position="333">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

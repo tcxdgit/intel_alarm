@@ -40,6 +40,7 @@ def decode(warn_list, code0):
     else:
         return temp
 
+
 def check_rules(satisfy, warn_list):
     '''
     input: 
@@ -48,6 +49,9 @@ def check_rules(satisfy, warn_list):
     output:
         res: bool, True if satisfies the whole thing
     '''
+    if warn_list[0].get('ifPrev', None) and warn_list[1].get('ifPrev', None):
+        # print(warn_list)
+        return False
     if len(warn_list) < 2:
         return False
     for rule in satisfy:

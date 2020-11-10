@@ -1,0 +1,1124 @@
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+index 2e8da16..c43d045 100644
+--- a/.idea/workspace.xml
++++ b/.idea/workspace.xml
+@@ -1,7 +1,17 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="e5a476ea-2918-4714-b80e-5f57a8843fc8" name="Default Changelist" comment="" />
++    <list default="true" id="e5a476ea-2918-4714-b80e-5f57a8843fc8" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/WarningMatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/WarningMatch.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/data/demo_multi_window.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/demo_multi_window.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/data/output_log_for_matched_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/output_log_for_matched_results.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/data/rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/rules.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/logParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/logParser.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/main_multiprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_multiprocess.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
++    </list>
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -11,13 +21,13 @@
+   <component name="CoverageDataManager">
+     <SUITE FILE_PATH="coverage/Intel_alarm$main_real_time.coverage" NAME="main_real_time Coverage Results" MODIFIED="1599124006080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Intel_alarm$test.coverage" NAME="test Coverage Results" MODIFIED="1599447340037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/Intel_alarm$sort_rule.coverage" NAME="sort_rule Coverage Results" MODIFIED="1601016110698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Intel_alarm$sort_rule.coverage" NAME="sort_rule Coverage Results" MODIFIED="1602901191587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Intel_alarm$group_data.coverage" NAME="group_data Coverage Results" MODIFIED="1598259236513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Intel_alarm$try.coverage" NAME="try Coverage Results" MODIFIED="1599189079289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/Intel_alarm$pytest_in_logParser_py.coverage" NAME="pytest in logParser.py Coverage Results" MODIFIED="1600856702080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Intel_alarm$pytest_in_logParser_py.coverage" NAME="pytest in logParser.py Coverage Results" MODIFIED="1602837339724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Intel_alarm$main.coverage" NAME="main Coverage Results" MODIFIED="1599613026241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/Intel_alarm$main_multiprocess.coverage" NAME="main_multiprocess Coverage Results" MODIFIED="1600420521202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/Intel_alarm$logParser.coverage" NAME="logParser Coverage Results" MODIFIED="1601015502237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Intel_alarm$logParser.coverage" NAME="logParser Coverage Results" MODIFIED="1602837351966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Intel_alarm$main_multiprocess.coverage" NAME="main_multiprocess Coverage Results" MODIFIED="1602919252783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+   </component>
+   <component name="FUSProjectUsageTrigger">
+     <session id="451683032">
+@@ -68,32 +78,37 @@
+     <session id="1451831573">
+       <usages-collector id="statistics.lifecycle.project">
+         <counts>
+-          <entry key="project.open.time.0" value="1" />
+-          <entry key="project.opened" value="1" />
++          <entry key="project.closed" value="1" />
++          <entry key="project.open.time.0" value="2" />
++          <entry key="project.opened" value="2" />
+         </counts>
+       </usages-collector>
+       <usages-collector id="statistics.file.extensions.open">
+         <counts>
+           <entry key="json" value="1" />
+-          <entry key="py" value="9" />
+-          <entry key="txt" value="4" />
++          <entry key="py" value="14" />
++          <entry key="txt" value="10" />
+         </counts>
+       </usages-collector>
+       <usages-collector id="statistics.file.types.open">
+         <counts>
+           <entry key="JSON" value="1" />
+-          <entry key="PLAIN_TEXT" value="4" />
+-          <entry key="Python" value="9" />
++          <entry key="PLAIN_TEXT" value="10" />
++          <entry key="Python" value="14" />
+         </counts>
+       </usages-collector>
+       <usages-collector id="statistics.file.extensions.edit">
+         <counts>
+-          <entry key="py" value="5" />
++          <entry key="json" value="110" />
++          <entry key="py" value="1399" />
++          <entry key="txt" value="21" />
+         </counts>
+       </usages-collector>
+       <usages-collector id="statistics.file.types.edit">
+         <counts>
+-          <entry key="Python" value="5" />
++          <entry key="JSON" value="110" />
++          <entry key="PLAIN_TEXT" value="21" />
++          <entry key="Python" value="1399" />
+         </counts>
+       </usages-collector>
+     </session>
+@@ -103,8 +118,8 @@
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/logParser.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="233">
+-              <caret line="577" lean-forward="true" selection-start-line="577" selection-end-line="577" />
++            <state relative-caret-position="282">
++              <caret line="173" column="61" lean-forward="true" selection-start-line="173" selection-start-column="61" selection-end-line="173" selection-end-column="61" />
+               <folding>
+                 <element signature="e#0#11#0" expanded="true" />
+               </folding>
+@@ -115,8 +130,63 @@
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/data/rules.json">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="203">
+-              <caret line="172" column="37" lean-forward="true" selection-start-line="172" selection-start-column="37" selection-end-line="172" selection-end-column="37" />
++            <state relative-caret-position="380">
++              <caret line="213" column="23" lean-forward="true" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="23" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/main_multiprocess.py">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="359">
++              <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
++              <folding>
++                <element signature="e#1#16#0" expanded="true" />
++                <element signature="e#7931#7948#0" />
++                <marker date="1602832711031" expanded="true" signature="571:572" ph="..." />
++                <marker date="1602832711031" expanded="true" signature="1686:2703" ph="..." />
++                <marker date="1602832711031" expanded="true" signature="7955:7961" ph="..." />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/scratch.py">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="-131">
++              <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
++              <folding>
++                <element signature="e#0#37#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/data/output_mergerd_group.txt">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="21">
++              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/data/demo_multi_window.txt">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="633">
++              <caret line="68" column="64" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/data/output_summary.txt">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="168">
++              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+             </state>
+           </provider>
+         </entry>
+@@ -124,26 +194,35 @@
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/sort_rule.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="311">
+-              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
++            <state relative-caret-position="395">
++              <caret line="61" column="52" lean-forward="true" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/new_warning_modules.py">
++        <entry file="file://$PROJECT_DIR$/WarningMatch.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="504">
+-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
++            <state relative-caret-position="233">
++              <caret line="271" column="42" lean-forward="true" selection-start-line="271" selection-start-column="42" selection-end-line="271" selection-end-column="42" />
++              <folding>
++                <element signature="e#0#19#0" expanded="true" />
++                <element signature="e#3157#7186#0" />
++                <element signature="e#7140#7186#0" />
++                <element signature="e#7271#12108#0" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/data/output_log_for_matched_results.txt">
++        <entry file="file://$PROJECT_DIR$/utils.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="208">
+-              <caret line="1" column="574" lean-forward="true" selection-start-line="1" selection-start-column="574" selection-end-line="1" selection-end-column="574" />
++            <state relative-caret-position="493">
++              <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
++              <folding>
++                <element signature="e#0#43#0" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+@@ -167,8 +246,23 @@
+       <find>logTime</find>
+       <find>print</find>
+       <find>freq</find>
++      <find>DRNI</find>
++      <find>event</find>
++      <find>OSPF</find>
++      <find>OSPF_NBR_CHG_REASON</find>
++      <find>{} down</find>
++      <find>abstract</find>
++      <find>PHY_updown</find>
++      <find>LINK_updown</find>
++      <find>Many MAC addresses has moved from port XGE4/0/5:1 to port XGE4/0/5:2</find>
++      <find>d3e17f39</find>
++      <find>IFNET_PORT_LINK_UPDOWN</find>
++      <find>create_new_warning</find>
+     </findStrings>
+   </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
+   <component name="IdeDocumentHistory">
+     <option name="CHANGED_PATHS">
+       <list>
+@@ -186,19 +280,20 @@
+         <option value="$PROJECT_DIR$/data/grouped_demo_data_in_list.txt" />
+         <option value="$PROJECT_DIR$/data/grouped_demo_data_in_list_multi_window.txt" />
+         <option value="$PROJECT_DIR$/syslog_filters.py" />
+-        <option value="$PROJECT_DIR$/logParser.py" />
+         <option value="$PROJECT_DIR$/data/222" />
+-        <option value="$PROJECT_DIR$/data/demo_multi_window.txt" />
+         <option value="$PROJECT_DIR$/data/newLog.json" />
+-        <option value="$PROJECT_DIR$/utils.py" />
+         <option value="$PROJECT_DIR$/new_warning_modules.py" />
+         <option value="$PROJECT_DIR$/group_data.py" />
+-        <option value="$PROJECT_DIR$/scratch.py" />
+-        <option value="$PROJECT_DIR$/main_multiprocess.py" />
+         <option value="$PROJECT_DIR$/data/111" />
+         <option value="$PROJECT_DIR$/data/output_summary.txt" />
+-        <option value="$PROJECT_DIR$/WarningMatch.py" />
+         <option value="$PROJECT_DIR$/sort_rule.py" />
++        <option value="$PROJECT_DIR$/main_multiprocess.py" />
++        <option value="$PROJECT_DIR$/data/demo_multi_window.txt" />
++        <option value="$PROJECT_DIR$/data/rules.json" />
++        <option value="$PROJECT_DIR$/utils.py" />
++        <option value="$PROJECT_DIR$/logParser.py" />
++        <option value="$PROJECT_DIR$/WarningMatch.py" />
++        <option value="$PROJECT_DIR$/scratch.py" />
+       </list>
+     </option>
+   </component>
+@@ -209,11 +304,11 @@
+     <sorting>DEFINITION_ORDER</sorting>
+   </component>
+   <component name="ProjectFrameBounds" extendedState="6">
+-    <option name="x" value="1592" />
+-    <option name="y" value="-8" />
++    <option name="x" value="2704" />
+     <option name="width" value="1456" />
+     <option name="height" value="916" />
+   </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectView">
+     <navigator proportions="" version="1">
+       <foldersAlwaysOnTop value="true" />
+@@ -262,8 +357,8 @@
+       </list>
+     </option>
+   </component>
+-  <component name="RunManager" selected="Python.sort_rule">
+-    <configuration name="logParser" type="PythonConfigurationType" factoryName="Python" temporary="true">
++  <component name="RunManager" selected="Python.main_multiprocess">
++    <configuration name="group_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+       <module name="Intel_alarm" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -276,7 +371,7 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logParser.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/group_data.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -285,7 +380,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
++    <configuration name="logParser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+       <module name="Intel_alarm" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -298,7 +393,7 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logParser.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -368,19 +463,19 @@
+       <method v="2" />
+     </configuration>
+     <list>
+-      <item itemvalue="Python.main" />
+       <item itemvalue="Python.main_multiprocess" />
+       <item itemvalue="Python tests.pytest in logParser.py" />
+       <item itemvalue="Python.logParser" />
+       <item itemvalue="Python.sort_rule" />
++      <item itemvalue="Python.group_data" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python.main_multiprocess" />
+         <item itemvalue="Python.sort_rule" />
+         <item itemvalue="Python.logParser" />
+         <item itemvalue="Python tests.pytest in logParser.py" />
+-        <item itemvalue="Python.main_multiprocess" />
+-        <item itemvalue="Python.main" />
++        <item itemvalue="Python.group_data" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -404,18 +499,25 @@
+     <history-entry file="pytest_in_logParser_py - 2020.09.23 at 18h 25m 02s.xml">
+       <configuration name="pytest in logParser.py" configurationId="tests" />
+     </history-entry>
++    <history-entry file="pytest_in_logParser_py - 2020.10.16 at 11h 11m 02s.xml">
++      <configuration name="pytest in logParser.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="pytest_in_logParser_py - 2020.10.16 at 15h 11m 35s.xml">
++      <configuration name="pytest in logParser.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="pytest_in_logParser_py - 2020.10.16 at 16h 35m 40s.xml">
++      <configuration name="pytest in logParser.py" configurationId="tests" />
++    </history-entry>
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="-9" y="-9" width="2578" height="1410" extended-state="6" />
+-    <editor active="true" />
++    <frame x="1591" y="-9" width="2578" height="1458" extended-state="6" />
+     <layout>
+-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.21485624" />
++      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.15734825" />
+       <window_info id="Structure" order="1" sideWeight="0.5027322" side_tool="true" weight="0.17638889" />
+       <window_info id="Favorites" order="2" side_tool="true" />
+-      <window_info anchor="bottom" id="Pylint" />
+       <window_info anchor="bottom" id="Message" order="0" />
+       <window_info anchor="bottom" id="Find" order="1" weight="0.3285528" />
+-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5290611" visible="true" weight="0.3523733" />
++      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5290611" visible="true" weight="0.45623547" />
+       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925485" weight="0.31014493" />
+       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+@@ -426,6 +528,7 @@
+       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007452" side_tool="true" weight="0.4" />
+       <window_info anchor="bottom" id="Terminal" order="11" />
+       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32841823" />
++      <window_info anchor="bottom" id="Pylint" order="13" />
+       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+@@ -467,6 +570,11 @@
+           <line>16</line>
+           <option name="timeStamp" value="22" />
+         </line-breakpoint>
++        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
++          <url>file://$PROJECT_DIR$/scratch.py</url>
++          <line>20</line>
++          <option name="timeStamp" value="24" />
++        </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+   </component>
+@@ -503,13 +611,6 @@
+     <entry file="file://$PROJECT_DIR$/main_real_time.py" />
+     <entry file="file://C:/ProgramData/Anaconda3/Lib/multiprocessing/process.py" />
+     <entry file="file://$PROJECT_DIR$/grouped_demo_data_0916.txt" />
+-    <entry file="file://$PROJECT_DIR$/data/demo_multi_window.txt">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="75">
+-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/data/newLog.json">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="90">
+@@ -517,16 +618,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/utils.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="338">
+-          <caret line="123" column="13" lean-forward="true" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
+-          <folding>
+-            <element signature="e#0#43#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/data/matched_data_from_kafka.txt">
+       <provider selected="true" editor-type-id="text-editor" />
+     </entry>
+@@ -546,16 +637,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/scratch.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="253">
+-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+-          <folding>
+-            <element signature="e#0#37#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/data/matched_data_from_file.txt">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="105">
+@@ -570,26 +651,44 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/WarningMatch.py">
++    <entry file="file://$PROJECT_DIR$/send_demo_to_kafka.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1103">
+-          <caret line="294" column="57" selection-start-line="294" selection-start-column="57" selection-end-line="294" selection-end-column="57" />
+-          <folding>
+-            <element signature="e#0#19#0" expanded="true" />
+-          </folding>
++        <state relative-caret-position="1019">
++          <caret line="53" column="73" lean-forward="true" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/send_demo_to_kafka.py">
++    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1019">
+-          <caret line="53" column="73" lean-forward="true" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
++        <state relative-caret-position="147">
++          <caret line="7" column="28" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="28" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/syslog_filters.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="168">
++          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+           <folding>
+-            <element signature="e#0#11#0" expanded="true" />
++            <marker date="1599727884547" expanded="true" signature="789:794" ph="..." />
+           </folding>
+         </state>
+       </provider>
+     </entry>
++    <entry file="file://$PROJECT_DIR$/data/output_log_for_matched_results.txt">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="21">
++          <caret line="1" column="574" selection-start-line="1" selection-start-column="574" selection-end-line="1" selection-end-column="574" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/new_warning_modules.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="315">
++          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/data/output_summary.txt">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="168">
+@@ -597,72 +696,88 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
++    <entry file="file://$PROJECT_DIR$/data/demo_multi_window.txt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="147">
+-          <caret line="7" column="28" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="28" />
++        <state relative-caret-position="633">
++          <caret line="68" column="64" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/main_multiprocess.py">
++    <entry file="file://$PROJECT_DIR$/sort_rule.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="431">
+-          <caret line="236" column="119" lean-forward="true" selection-start-line="236" selection-start-column="119" selection-end-line="236" selection-end-column="119" />
+-          <folding>
+-            <element signature="e#1#16#0" expanded="true" />
+-            <element signature="e#7931#7948#0" />
+-            <marker date="1600393696128" expanded="true" signature="571:572" ph="..." />
+-            <marker date="1600393696128" expanded="true" signature="1686:2681" ph="..." />
+-            <marker date="1600393696128" expanded="true" signature="7925:7931" ph="..." />
+-          </folding>
++        <state relative-caret-position="395">
++          <caret line="61" column="52" lean-forward="true" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/syslog_filters.py">
++    <entry file="file://$PROJECT_DIR$/data/output_mergerd_group.txt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="168">
+-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+-          <folding>
+-            <marker date="1599727884547" expanded="true" signature="789:794" ph="..." />
+-          </folding>
++        <state relative-caret-position="21">
++          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/logParser.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="233">
+-          <caret line="577" lean-forward="true" selection-start-line="577" selection-end-line="577" />
++        <state relative-caret-position="282">
++          <caret line="173" column="61" lean-forward="true" selection-start-line="173" selection-start-column="61" selection-end-line="173" selection-end-column="61" />
+           <folding>
+             <element signature="e#0#11#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/sort_rule.py">
++    <entry file="file://$PROJECT_DIR$/data/rules.json">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="311">
+-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
++        <state relative-caret-position="380">
++          <caret line="213" column="23" lean-forward="true" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="23" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/data/rules.json">
++    <entry file="file://$PROJECT_DIR$/main_multiprocess.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="203">
+-          <caret line="172" column="37" lean-forward="true" selection-start-line="172" selection-start-column="37" selection-end-line="172" selection-end-column="37" />
++        <state relative-caret-position="359">
++          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
++          <folding>
++            <element signature="e#1#16#0" expanded="true" />
++            <element signature="e#7931#7948#0" />
++            <marker date="1602832711031" expanded="true" signature="571:572" ph="..." />
++            <marker date="1602832711031" expanded="true" signature="1686:2703" ph="..." />
++            <marker date="1602832711031" expanded="true" signature="7955:7961" ph="..." />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/new_warning_modules.py">
++    <entry file="file://$PROJECT_DIR$/scratch.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="504">
+-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
++        <state relative-caret-position="-131">
++          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
++          <folding>
++            <element signature="e#0#37#0" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/data/output_log_for_matched_results.txt">
++    <entry file="file://$PROJECT_DIR$/WarningMatch.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="233">
++          <caret line="271" column="42" lean-forward="true" selection-start-line="271" selection-start-column="42" selection-end-line="271" selection-end-column="42" />
++          <folding>
++            <element signature="e#0#19#0" expanded="true" />
++            <element signature="e#3157#7186#0" />
++            <element signature="e#7140#7186#0" />
++            <element signature="e#7271#12108#0" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/utils.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="208">
+-          <caret line="1" column="574" lean-forward="true" selection-start-line="1" selection-start-column="574" selection-end-line="1" selection-end-column="574" />
++        <state relative-caret-position="493">
++          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
++          <folding>
++            <element signature="e#0#43#0" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+diff --git a/WarningMatch.py b/WarningMatch.py
+index c5d6ccb..75f24dd 100644
+--- a/WarningMatch.py
++++ b/WarningMatch.py
+@@ -48,12 +48,14 @@ class WarningMatch:
+                                     continue
+                             match_list.append(tuple((warn_group_id, warn_id, warn_type, int(warn.get('logTime', None)))))
+                 if match_list:
++
+                     mode = rule.get('correlation_mode', None)
+                     if mode == "fatherSon":
+                         self.father_son_match(warn_group, match_list, rule)
+                     if mode == "sameSource":
+                         self.same_source_match(warn_group, match_list, rule)
+                     if mode == "frequency":
++                        # print(self.freq_warning_cash)
+                         self.frequency_match(warn_group, match_list, rule)
+         last_30s = []
+         for i in self.warn_groups:
+@@ -257,6 +259,7 @@ class WarningMatch:
+                 break
+ 
+     def frequency_match(self, warn_group, match_list, rule):
++        # print(self.freq_warning_cash)
+         rule_id = rule.get('rule_id', None)
+         satisfies = rule.get('satisfy', None)
+         time_range = int(rule.get('timeRange', None))
+@@ -266,6 +269,8 @@ class WarningMatch:
+             # print("_________________________", self.freq_warning_cash.get(rule_id))
+             # check satisfy
+             this_warning = warn_group[warn_tuple[1]]
++            if this_warning.get('ifPrev'):
++                continue
+             if len(self.freq_warning_cash.get(rule_id)) == 0:
+                 this_warning['temp'] = (warn_tuple[0], warn_tuple[1], self.time_window)
+                 self.freq_warning_cash.get(rule_id).append(this_warning)
+diff --git a/__pycache__/WarningMatch.cpython-37.pyc b/__pycache__/WarningMatch.cpython-37.pyc
+index dfc4420..6db16bc 100644
+Binary files a/__pycache__/WarningMatch.cpython-37.pyc and b/__pycache__/WarningMatch.cpython-37.pyc differ
+diff --git a/__pycache__/logParser.cpython-37.pyc b/__pycache__/logParser.cpython-37.pyc
+index 3544033..ae5aacc 100644
+Binary files a/__pycache__/logParser.cpython-37.pyc and b/__pycache__/logParser.cpython-37.pyc differ
+diff --git a/__pycache__/scratch.cpython-37.pyc b/__pycache__/scratch.cpython-37.pyc
+index b9970f3..e468e2a 100644
+Binary files a/__pycache__/scratch.cpython-37.pyc and b/__pycache__/scratch.cpython-37.pyc differ
+diff --git a/__pycache__/sort_rule.cpython-37.pyc b/__pycache__/sort_rule.cpython-37.pyc
+index fac870c..b1b6431 100644
+Binary files a/__pycache__/sort_rule.cpython-37.pyc and b/__pycache__/sort_rule.cpython-37.pyc differ
+diff --git a/__pycache__/utils.cpython-37.pyc b/__pycache__/utils.cpython-37.pyc
+index f930963..83dc428 100644
+Binary files a/__pycache__/utils.cpython-37.pyc and b/__pycache__/utils.cpython-37.pyc differ
+diff --git a/data/demo_multi_window.txt b/data/demo_multi_window.txt
+index f7fe351..6285518 100644
+--- a/data/demo_multi_window.txt
++++ b/data/demo_multi_window.txt
+@@ -81,3 +81,9 @@
+ {"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222b in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
+ {"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
+ {"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2231 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
++
++# demo7
++{"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet3/0/26 changed to down."}
++{"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10LAGG/6/LAGG_INACTIVE_OTHER: Member port XGE3/0/26 of aggregation group BAGG40 changed to the inactive state, because other reason."}
++{"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet3/0/26 changed to down."}
++{"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10DRNI/6/DRNI_IFEVENT_DR_NOSELECTED: Local DR interface Bridge-Aggregation40 in DR group 40 does not have Selected member ports because the aggregate interface went down. Please check the aggregate link status."}
+diff --git a/data/output_log_for_matched_results.txt b/data/output_log_for_matched_results.txt
+index 1d6c0df..8306bc8 100644
+--- a/data/output_log_for_matched_results.txt
++++ b/data/output_log_for_matched_results.txt
+@@ -1,69 +1,69 @@
+-{'timestamp': '2020-06-10T19:42:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 4, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Ten-GigabitEthernet11/2/1 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'cae4681d-064b-4767-983c-6592209424c2', 'warnType': 'IFNET_PORT_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1'}, 'level': 4, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1 down', 'ifPrev': False, 'role': [('fatherSon', 'father', [(0, 0, 0), (0, 4, 0)], UUID('97a65cb1-1895-4685-ae8d-d2ecddf8060f')), ('fatherSon', 'father', [(0, 0, 0), (0, 5, 0)], UUID('7c8fd543-6d3e-408a-81f1-9bdb222470a5')), ('fatherSon', 'father', [(0, 0, 0), (0, 6, 0)], UUID('c37abfd3-568d-4a59-88a5-4945b94fb4c8')), ('fatherSon', 'father', [(0, 0, 0), (0, 1, 0)], UUID('2c0de0b1-1bc6-4281-bc00-f40d7c8cdfce')), ('fatherSon', 'father', [(0, 0, 0), (0, 2, 0)], UUID('7877c84f-1ee0-43ac-97c9-2e32082a1fa1')), ('fatherSon', 'father', [(0, 0, 0), (0, 3, 0)], UUID('8e1b28ba-bb82-4891-bf12-e59c7b0760e6'))]}
+-{'timestamp': '2020-06-10T19:42:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:20 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.', 'pri': 172, 'logTime': 1591789340.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '2a99c2d8-19ea-47d7-999b-4e946661a7c2', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=1'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '1'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.1 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 1, 0)], UUID('2c0de0b1-1bc6-4281-bc00-f40d7c8cdfce'))]}
+-{'timestamp': '2020-06-10T19:42:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:20 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.', 'pri': 172, 'logTime': 1591789340.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'bc6fcd15-7803-41cd-862d-38d4c309b09d', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=2'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '2'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.2 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 2, 0)], UUID('7877c84f-1ee0-43ac-97c9-2e32082a1fa1'))]}
+-{'timestamp': '2020-06-10T19:42:30.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '74aaed8f-c1c5-46d9-be90-f95449ac15d5', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=3950'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '3950'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.3950 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 3, 0)], UUID('8e1b28ba-bb82-4891-bf12-e59c7b0760e6'))]}
+-{'timestamp': '2020-06-10T19:42:30.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.69 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 4, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Ten-GigabitEthernet11/2/1.69 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '2b7f9ab0-142d-403b-b695-34433d1c58de', 'warnType': 'IFNET_SUBINF_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=69'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '69'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.69 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 4, 0)], UUID('97a65cb1-1895-4685-ae8d-d2ecddf8060f'))]}
+-{'timestamp': '2020-06-10T19:42:30.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.164 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 4, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Ten-GigabitEthernet11/2/1.164 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'fcd9c48b-e6e2-4f6e-96ee-abf497957fa5', 'warnType': 'IFNET_SUBINF_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=164'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '164'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.164 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 5, 0)], UUID('7c8fd543-6d3e-408a-81f1-9bdb222470a5'))]}
+-{'timestamp': '2020-06-10T19:42:30.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.3928 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 4, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Ten-GigabitEthernet11/2/1.3928 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '605ac579-4d12-4d83-88d8-96b38f44eccb', 'warnType': 'IFNET_SUBINF_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=3928'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '3928'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.3928 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 6, 0)], UUID('c37abfd3-568d-4a59-88a5-4945b94fb4c8'))]}
+-{'timestamp': '2020-06-10T19:42:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.1 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet5/2/2.1 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'c50a9a61-eaea-4696-9d95-1eb5f1a0f423', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=5', 'port=Ten-GigabitEthernet5/2/2', 'subInf=1'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '5', 'port': 'Ten-GigabitEthernet5/2/2', 'subInf': '1'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet5/2/2.1 down', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:42:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.2 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet5/2/2.2 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '3c14ad13-a239-42d7-b7ca-d471bf29881c', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=5', 'port=Ten-GigabitEthernet5/2/2', 'subInf=2'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '5', 'port': 'Ten-GigabitEthernet5/2/2', 'subInf': '2'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet5/2/2.2 down', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:42:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.3 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet5/2/2.3 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'b9cba29f-2128-42e6-aa71-b8c90672ea3d', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=5', 'port=Ten-GigabitEthernet5/2/2', 'subInf=3'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '5', 'port': 'Ten-GigabitEthernet5/2/2', 'subInf': '3'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet5/2/2.3 down', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '212.1.1.210', 'message': '<172>Jun 10 19:42:40 2020 75exs_leaf %%10DEV/3/FAN_ABSENT: -Slot=1; Fan 1 is absent.', 'pri': 172, 'logTime': 1591789360.0, 'loghostname': '75exs_leaf', 'module': 'DEV', 'severity': 3, 'logTypeDesc': 'FAN_ABSENT', 'location': 'Slot=1', 'desc': 'Fan 1 is absent.', 'Slot': '1', 'ldp_host_ip': '212.1.1.210', 'ldp_uuid': '0ce6775c-d058-4f85-9ae3-fb333f7c2cb0', 'warnType': 'DEV_FAN_ABSENT', 'NE': ('device=212.1.1.210', 'chassis=0', 'Fan=1'), 'parameters': {}, 'dictNE': {'device': '212.1.1.210', 'chassis': '0', 'Fan': '1'}, 'level': 3, 'influence': None, 'abstract': 'Fan 1 is absent.', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '212.1.1.209', 'message': '<172>Jun 10 19:42:40 2020 75exs_125g_10510x_40_ec %%10DEV/3/FAN_ABSENT: Fan 2 is absent.', 'pri': 172, 'logTime': 1591789360.0, 'loghostname': '75exs_125g_10510x_40_ec', 'module': 'DEV', 'severity': 3, 'logTypeDesc': 'FAN_ABSENT', 'location': None, 'desc': 'Fan 2 is absent.', 'ldp_host_ip': '212.1.1.209', 'ldp_uuid': 'b2b8470b-9a43-46dc-8b57-e95de06a2c7d', 'warnType': 'DEV_FAN_ABSENT', 'NE': ('device=212.1.1.209', 'chassis=0', 'Fan=2'), 'parameters': {}, 'dictNE': {'device': '212.1.1.209', 'chassis': '0', 'Fan': '2'}, 'level': 3, 'influence': None, 'abstract': 'Fan 2 is absent.', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10OPTMOD/4/PHONY_MODULE: -Chassis=1-Slot=2; Ten-GigabitEthernet1/2/0/23: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'OPTMOD', 'severity': 4, 'logTypeDesc': 'PHONY_MODULE', 'location': 'Chassis=1-Slot=2', 'desc': 'Ten-GigabitEthernet1/2/0/23: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!', 'Chassis': '1', 'Slot': '2', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'c7ce1d29-b1b4-4464-820e-a908740449a4', 'warnType': 'OPTMOD_PHONY_MODULE', 'NE': ('device=192.28.200.201', 'chassis=1', 'slot=2', 'port=Ten-GigabitEthernet1/2/0/23'), 'parameters': {}, 'dictNE': {'device': '192.28.200.201', 'chassis': '1', 'slot': '2', 'port': 'Ten-GigabitEthernet1/2/0/23'}, 'level': 4, 'influence': 'Flow stability on Ten-GigabitEthernet1/2/0/23', 'abstract': 'transceiver on Ten-GigabitEthernet1/2/0/23 is NOT sold by H3C', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '76e967a4-7e5f-40cd-a3b7-a2a1cfbdfc49', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 1, 1), (0, 3, 1), (0, 13, 1)], UUID('f097361d-2706-4761-aa00-f78b4dc09dd2'))]}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '76dabb58-62bf-44a4-9de4-6008a339410d', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'f9d72318-ef71-4abb-8da9-3b7e749141dc', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 1, 1), (0, 3, 1), (0, 13, 1)], UUID('f097361d-2706-4761-aa00-f78b4dc09dd2'))]}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to down.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '5ac8b2e7-3830-449c-be22-96f670edb93a', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'b7944984-40e7-40b3-b8ee-4f00e8c33227', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 5, 1), (0, 7, 1), (0, 14, 1)], UUID('58c8a7c0-27a6-4fff-8990-211bdb9cde36'))]}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '987f79f5-082e-4c59-afe3-d9f210e5f77f', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'e969bd85-639b-4fdf-bdbd-3fa010d95fc8', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 5, 1), (0, 7, 1), (0, 14, 1)], UUID('58c8a7c0-27a6-4fff-8990-211bdb9cde36'))]}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'bdfaec15-bc41-470c-b922-b529d87ffb44', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '9c345ac1-550d-48e1-860c-e8880b1a8340', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'c5f26cc5-de80-4feb-9197-0fe0e8b171e6', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'a2348885-f25f-45fd-8de8-03b28571072c', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'adec26f5-d64c-4c33-befa-49d085718880', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN_DERIVE', 'desc': 'Physical state on the interface Tunnel4 changed from down to up in a short time.', 'warnType': 'IFNET_PHY_UPDOWN_DERIVE', 'abstract': 'interface Tunnel4 occurs Down and UP', 'influence': None, 'parameters': {}, 'NE': ('device=192.28.200.201', 'intTnl=4'), 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'role': [('sameSource', 'father', [(0, 1, 1), (0, 3, 1), (0, 13, 1)], UUID('f097361d-2706-4761-aa00-f78b4dc09dd2'))], 'logTime': 1591789480, 'ldp_host_ip': '192.28.200.201', 'temp': (0, 13, 1)}
+-{'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN_DERIVE', 'desc': 'Physical state on the interface Tunnel4 changed from down to up in a short time.', 'warnType': 'IFNET_PHY_UPDOWN_DERIVE', 'abstract': 'interface Tunnel4 occurs Down and UP', 'influence': None, 'parameters': {}, 'NE': ('device=192.28.200.201', 'intTnl=4'), 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'role': [('sameSource', 'father', [(0, 5, 1), (0, 7, 1), (0, 14, 1)], UUID('58c8a7c0-27a6-4fff-8990-211bdb9cde36'))], 'logTime': 1591789490, 'ldp_host_ip': '192.28.200.201', 'temp': (0, 14, 1)}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'af11db6a-0a6b-44cd-a01d-833b90a3d64a', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '725faa2c-1bb8-4924-82d4-e61548e164a0', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '0c7bd656-759c-410c-b63c-378d49203c26', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'f2574f7c-3c4d-4172-8f6d-00907914d640', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'f1155129-baa4-4abe-aed2-b700f33ce81f', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '249cd457-6be4-4b97-8619-ff2ebc54cb69', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '530e1810-32bc-4a73-a7e1-d0364c126946', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'db5dc3fb-3fe4-470e-8171-4022d98c9957', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'c8789080-4ed7-4087-8e0d-999cb2a18c32', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '308010a4-8934-4330-bda4-45ed8f6eb9ea', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'f6200447-7b8e-402b-8a51-ead86b68e4c0', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'c8779c97-809f-475c-bdc9-1dcebcd4d075', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '39028344-6a13-4ae0-8923-43f3c51e07bf', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '1f644af9-e073-4ffb-89b4-55e3f54eb47d', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789520.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'b61cfe54-8f72-4697-bd87-2c5b164a6ef3', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789520.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '18c10064-0bbc-40c6-8257-3bf367cb451b', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789520.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '61c70234-3583-4127-9b09-99c281c1cef3', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.', 'pri': 172, 'logTime': 1591789520.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'cfe4114c-2176-48e1-8aba-394199a243f2', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 31, 2), (0, 30, 2), (0, 32, 2)], UUID('8fc8c911-dab3-4fe0-867d-9aaadb193e8b'))]}
+-{'timestamp': '2020-06-10T19:43:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789520.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'e656bfd6-7c3a-4b31-a096-22cba5345b37', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 31, 2), (0, 30, 2), (0, 32, 2)], UUID('8fc8c911-dab3-4fe0-867d-9aaadb193e8b'))]}
+-{'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN_DERIVE', 'desc': 'Physical state on the interface Tunnel4 changed from down to up in a short time.', 'warnType': 'IFNET_PHY_UPDOWN_DERIVE', 'abstract': 'interface Tunnel4 occurs Down and UP', 'influence': None, 'parameters': {}, 'NE': ('device=192.28.200.201', 'intTnl=4'), 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'role': [('sameSource', 'father', [(0, 31, 2), (0, 30, 2), (0, 32, 2)], UUID('8fc8c911-dab3-4fe0-867d-9aaadb193e8b')), ('frequency', 'son', [(0, 13, 1), (0, 14, 1), (0, 32, 2), (0, 33, 2)], UUID('7ca6fffc-37dd-4a72-bafa-074499225bdf'))], 'logTime': 1591789520, 'ldp_host_ip': '192.28.200.201'}
+-{'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_FLAPPING_DERIVE', 'desc': 'Physical state on the interface Tunnel4 Flapping.', 'warnType': 'IFNET_PHY_FLAPPING_DERIVE', 'abstract': 'Physical state on the interface Tunnel4 Flapping', 'influence': 'Interval interrupt on interface Tunnel4', 'parameters': {}, 'NE': ('device=192.28.200.201', 'intTnl=4'), 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'role': [('frequency', 'father', [(0, 13, 1), (0, 14, 1), (0, 32, 2), (0, 33, 2)], UUID('7ca6fffc-37dd-4a72-bafa-074499225bdf'))], 'logTime': 1591789520, 'ldp_host_ip': '192.28.200.201'}
+-{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface HundredGigE1/4/0/1 changed to down.', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface HundredGigE1/4/0/1 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'b6e238a7-bbda-4f8d-aef1-11f9ea973083', 'warnType': 'IFNET_PORT_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=1', 'slot=4', 'port=HundredGigE1/4/0/1'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '1', 'slot': '4', 'port': 'HundredGigE1/4/0/1'}, 'level': 4, 'influence': None, 'abstract': 'HundredGigE1/4/0/1 down', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Vlan-interface11 changed to down.', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Vlan-interface11 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'c65a6882-cdc7-4aa9-be64-78f462d39782', 'warnType': 'IFNET_INTVLAN_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intVlan=11'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intVlan': '11'}, 'level': 2, 'influence': None, 'abstract': 'Vlan-interface11 down', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Vlan-interface11 changed to down.', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Vlan-interface11 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '3f35f85d-f669-44ee-853d-4d8f86f3542f', 'warnType': 'IFNET_INTVLAN_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intVlan=11'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intVlan': '11'}, 'level': 2, 'influence': None, 'abstract': 'Vlan-interface11 down', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/6/OSPF_LAST_NBR_DOWN: OSPF 1 Last neighbor down event: Router ID: 1.2.3.4 Local address: 11.1.1.3 Remote address: 11.1.1.1 Reason: Ospf_ifachange.', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'OSPF', 'severity': 6, 'logTypeDesc': 'OSPF_LAST_NBR_DOWN', 'location': None, 'desc': 'OSPF 1 Last neighbor down event: Router ID: 1.2.3.4 Local address: 11.1.1.3 Remote address: 11.1.1.1 Reason: Ospf_ifachange.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'af2a44d8-1b42-4f3a-b85f-2580401ccd27', 'warnType': 'OSPF_OSPF_LAST_NBR_DOWN', 'NE': ('device=192.28.200.201', 'route=ospf', 'ospfId=1'), 'parameters': {'routerId': '1.2.3.4', 'route': 'ospf', 'ospfId': '1', 'localAddress': '11.1.1.3', 'remoteAddress': '11.1.1.1', 'reason': 'Ospf_ifachange.'}, 'dictNE': {'device': '192.28.200.201', 'route': 'ospf', 'ospfId': '1'}, 'level': 3, 'influence': 'OSPF neighbor down', 'abstract': 'OSPF 1 Last neighbor down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 4, 3), (0, 3, 3)], UUID('967b5a86-a307-4986-b2f7-2e9b7504ab95'))]}
+-{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG: OSPF 1 Neighbor 11.1.1.1(Vlan-interface11) changed from FULL to DOWN.', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'OSPF', 'severity': 5, 'logTypeDesc': 'OSPF_NBR_CHG', 'location': None, 'desc': 'OSPF 1 Neighbor 11.1.1.1(Vlan-interface11) changed from FULL to DOWN.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'd5742f9d-42a3-4fd7-acef-7da22e9b1638', 'warnType': 'OSPF_OSPF_NBR_CHG', 'NE': ('device=192.28.200.201', 'route=ospf', 'ospfId=1'), 'parameters': {'neighbor': '11.1.1.1', 'intVlan': '11', 'status': 'DOWN'}, 'dictNE': {'device': '192.28.200.201', 'route': 'ospf', 'ospfId': '1'}, 'level': 3, 'influence': 'OSPF neighbor down', 'abstract': 'OSPF 1 Neighbor 11.1.1.1(11) down', 'ifPrev': False, 'role': [('fatherSon', 'father', [(0, 4, 3), (0, 5, 3)], UUID('c8c5b8ab-3b06-4bdb-bbc3-5c92bf7e3a7d')), ('fatherSon', 'father', [(0, 4, 3), (0, 3, 3)], UUID('967b5a86-a307-4986-b2f7-2e9b7504ab95'))]}
+-{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG_REASON: OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'OSPF', 'severity': 5, 'logTypeDesc': 'OSPF_NBR_CHG_REASON', 'location': None, 'desc': 'OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'f1b1b910-9ca3-4bc5-9338-731661521d52', 'warnType': 'OSPF_OSPF_NBR_CHG_REASON', 'NE': ('device=192.28.200.201', 'route=ospf', 'ospfId=1', 'area=0.0.0.0'), 'parameters': {'routerId': '3.3.3.3', 'neighborAddress': '11.1.1.1', 'nbrId': '1.2.3.4', 'status': 'DOWN'}, 'dictNE': {'device': '192.28.200.201', 'route': 'ospf', 'ospfId': '1', 'area': '0.0.0.0'}, 'level': 4, 'influence': None, 'abstract': None, 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 4, 3), (0, 5, 3)], UUID('c8c5b8ab-3b06-4bdb-bbc3-5c92bf7e3a7d'))]}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10OSPF/5/OSPF_NBR_CHG: -MDC=1; OSPF 1 Neighbor 222.1.1.2(Vlan-interface4094) changed from FULL to DOWN.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'OSPF', 'severity': 5, 'logTypeDesc': 'OSPF_NBR_CHG', 'location': 'MDC=1', 'desc': 'OSPF 1 Neighbor 222.1.1.2(Vlan-interface4094) changed from FULL to DOWN.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'cc14ff38-1dd8-4483-8f2c-38a3a68aa0f0', 'warnType': 'OSPF_OSPF_NBR_CHG', 'NE': ('device=192.28.200.201', 'route=ospf', 'ospfId=1'), 'parameters': {'neighbor': '222.1.1.2', 'intVlan': '4094', 'status': 'DOWN'}, 'dictNE': {'device': '192.28.200.201', 'route': 'ospf', 'ospfId': '1'}, 'level': 3, 'influence': 'OSPF neighbor down', 'abstract': 'OSPF 1 Neighbor 222.1.1.2(4094) down', 'ifPrev': False, 'role': []}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10DEV/2/BOARD_STATE_FAULT: -MDC=1; Board state changed to Fault on slot 2, type is LSXM1CGQ36TD1.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'DEV', 'severity': 2, 'logTypeDesc': 'BOARD_STATE_FAULT', 'location': 'MDC=1', 'desc': 'Board state changed to Fault on slot 2, type is LSXM1CGQ36TD1.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '84be0974-e3cb-4dea-99dc-448a1c579c8b', 'warnType': 'DEV_BOARD_STATE_FAULT', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=2'), 'parameters': {}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '2'}, 'level': 3, 'influence': None, 'abstract': 'Slot 2 Fault', 'ifPrev': False, 'role': [('fatherSon', 'father', [(1, 0, 4), (1, 4, 4)], UUID('40014939-69e8-483c-840b-cc10e22e9679')), ('fatherSon', 'son', [(1, 1, 4), (1, 0, 4)], UUID('516b6679-7a13-4035-b051-7badac519f4d'))]}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10DEV/5/BOARD_REBOOT: -MDC=1; Board is rebooting on slot 2.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'DEV', 'severity': 5, 'logTypeDesc': 'BOARD_REBOOT', 'location': 'MDC=1', 'desc': 'Board is rebooting on slot 2.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '94c607d9-04f0-4451-b8cf-ffb6e1be8128', 'warnType': 'DEV_BOARD_REBOOT', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=2'), 'parameters': {}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '2'}, 'level': 3, 'influence': None, 'abstract': 'Slot 2 Rebooting', 'ifPrev': False, 'role': [('fatherSon', 'father', [(1, 1, 4), (1, 0, 4)], UUID('516b6679-7a13-4035-b051-7badac519f4d'))]}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10DEV/2/FAN_FAILED: -MDC=1; Fan 1 failed.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'DEV', 'severity': 2, 'logTypeDesc': 'FAN_FAILED', 'location': 'MDC=1', 'desc': 'Fan 1 failed.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '9f809cc8-e7e9-464b-be1a-2a8cb46749aa', 'warnType': 'DEV_FAN_FAILED', 'NE': ('device=192.28.200.201', 'chassis=0', 'Fan=1'), 'parameters': {}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'Fan': '1'}, 'level': 3, 'influence': None, 'abstract': 'Fan 1 failed.', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10IFNET/3/PHY_UPDOWN: -MDC=1; Physical state on the interface Vlan-interface4094 changed to down.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': 'MDC=1', 'desc': 'Physical state on the interface Vlan-interface4094 changed to down.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '390c64ca-7518-4b6a-bb84-6ad53a5bb03d', 'warnType': 'IFNET_INTVLAN_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intVlan=4094'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intVlan': '4094'}, 'level': 2, 'influence': None, 'abstract': 'Vlan-interface4094 down', 'ifPrev': False}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10IFNET/5/LINK_UPDOWN: -MDC=1; Line protocol state on the interface Vlan-interface4094 changed to down.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': 'MDC=1', 'desc': 'Line protocol state on the interface Vlan-interface4094 changed to down.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '501bfa85-0a84-43ba-b9cb-10116dc811d1', 'warnType': 'IFNET_INTVLAN_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intVlan=4094'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intVlan': '4094'}, 'level': 2, 'influence': None, 'abstract': 'Vlan-interface4094 down', 'ifPrev': False, 'role': [('fatherSon', 'father', [(1, 4, 4), (1, 5, 4)], UUID('c83ed170-7459-4193-9653-af97a2e87fb4')), ('fatherSon', 'father', [(1, 4, 4), (1, 6, 4)], UUID('9ec86eb0-016c-4a77-8c29-a78e9f3cf33e')), ('fatherSon', 'father', [(1, 4, 4), (1, 7, 4)], UUID('efbee4c4-9429-43cc-b6fc-021cf90be96b')), ('fatherSon', 'son', [(1, 0, 4), (1, 4, 4)], UUID('40014939-69e8-483c-840b-cc10e22e9679'))]}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10OSPFV3/5/OSPFv3_NBR_CHG: -MDC=1; OSPFv3 1 Neighbor 2.2.2.2(Vlan-interface4094) received KillNbr and its state from FULL to DOWN.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'OSPFV3', 'severity': 5, 'logTypeDesc': 'OSPFv3_NBR_CHG', 'location': 'MDC=1', 'desc': 'OSPFv3 1 Neighbor 2.2.2.2(Vlan-interface4094) received KillNbr and its state from FULL to DOWN.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '1e899c83-6822-4c00-8dba-01daaf7acb80', 'warnType': 'OSPFV3_OSPFv3_NBR_CHG', 'NE': ('device=192.28.200.201', 'route=ospfv3', 'ospfv3Id=1'), 'parameters': {'neighbor': '2.2.2.2', 'intVlan': '4094', 'status': 'DOWN'}, 'dictNE': {'device': '192.28.200.201', 'route': 'ospfv3', 'ospfv3Id': '1'}, 'level': 3, 'influence': 'OSPFv3 Neighbor down', 'abstract': 'OSPFv3 1 Neighbor down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(1, 4, 4), (1, 5, 4)], UUID('c83ed170-7459-4193-9653-af97a2e87fb4'))]}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10ISIS/5/ISIS_NBR_CHG: -MDC=1; IS-IS 1, Level-1 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'ISIS', 'severity': 5, 'logTypeDesc': 'ISIS_NBR_CHG', 'location': 'MDC=1', 'desc': 'IS-IS 1, Level-1 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'b7a9bcc1-d940-4673-901b-5f3d61c8319e', 'warnType': 'ISIS_ISIS_NBR_CHG', 'NE': ('device=192.28.200.201', 'route=isis', 'isisId=1'), 'parameters': {'adjacencyLevel': 'Level-1', 'adjacencyId': '0000.0000.0001', 'intVlan': '4094', 'status': 'DOWN', 'reason': 'circuit data clean'}, 'dictNE': {'device': '192.28.200.201', 'route': 'isis', 'isisId': '1'}, 'level': 3, 'influence': 'ISIS Neighbor down', 'abstract': 'ISIS 1 Neighbor down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(1, 4, 4), (1, 6, 4)], UUID('9ec86eb0-016c-4a77-8c29-a78e9f3cf33e'))]}
+-{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10ISIS/5/ISIS_NBR_CHG: -MDC=1; IS-IS 1, Level-2 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'ISIS', 'severity': 5, 'logTypeDesc': 'ISIS_NBR_CHG', 'location': 'MDC=1', 'desc': 'IS-IS 1, Level-2 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '22a3f39d-3419-4231-84f3-aaf8ff8fcaf0', 'warnType': 'ISIS_ISIS_NBR_CHG', 'NE': ('device=192.28.200.201', 'route=isis', 'isisId=1'), 'parameters': {'adjacencyLevel': 'Level-2', 'adjacencyId': '0000.0000.0001', 'intVlan': '4094', 'status': 'DOWN', 'reason': 'circuit data clean'}, 'dictNE': {'device': '192.28.200.201', 'route': 'isis', 'isisId': '1'}, 'level': 3, 'influence': 'ISIS Neighbor down', 'abstract': 'ISIS 1 Neighbor down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(1, 4, 4), (1, 7, 4)], UUID('efbee4c4-9429-43cc-b6fc-021cf90be96b'))]}
+-{'timestamp': '2020-06-10T19:45:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2234 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'pri': 172, 'logTime': 1591789720.0, 'loghostname': '12508 W', 'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_NOTIFICATION', 'location': 'MDC=1', 'desc': 'MAC address 0000-0022-2234 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '2d7871ca-f3c7-4c15-b34f-2be67a40e7b9', 'warnType': 'MAC_MAC_NOTIFICATION', 'NE': ('device=192.28.200.201', 'vlan=2048'), 'parameters': {'macAddress': '0000-0022-2234', 'port1': 'XGE4/0/5:1', 'port2': 'XGE4/0/5:2'}, 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'level': 2, 'influence': None, 'abstract': 'MAC address 0000-0022-2234 move', 'ifPrev': False, 'role': [('frequency', 'son', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('4ef9f6df-7440-49a9-a51b-2f47c7d72c9c'))]}
+-{'timestamp': '2020-06-10T19:45:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-224f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'pri': 172, 'logTime': 1591789720.0, 'loghostname': '12508 W', 'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_NOTIFICATION', 'location': 'MDC=1', 'desc': 'MAC address 0000-0022-224f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'c6917d02-bbd4-42fe-b590-1a33dbbc332a', 'warnType': 'MAC_MAC_NOTIFICATION', 'NE': ('device=192.28.200.201', 'vlan=2048'), 'parameters': {'macAddress': '0000-0022-224f', 'port1': 'XGE4/0/5:1', 'port2': 'XGE4/0/5:2'}, 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'level': 2, 'influence': None, 'abstract': 'MAC address 0000-0022-224f move', 'ifPrev': False, 'role': [('frequency', 'son', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('4ef9f6df-7440-49a9-a51b-2f47c7d72c9c'))]}
+-{'timestamp': '2020-06-10T19:45:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222b in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'pri': 172, 'logTime': 1591789720.0, 'loghostname': '12508 W', 'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_NOTIFICATION', 'location': 'MDC=1', 'desc': 'MAC address 0000-0022-222b in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '54e6308b-63dc-4dda-9885-b3869b06075c', 'warnType': 'MAC_MAC_NOTIFICATION', 'NE': ('device=192.28.200.201', 'vlan=2048'), 'parameters': {'macAddress': '0000-0022-222b', 'port1': 'XGE4/0/5:1', 'port2': 'XGE4/0/5:2'}, 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'level': 2, 'influence': None, 'abstract': 'MAC address 0000-0022-222b move', 'ifPrev': False, 'role': [('frequency', 'son', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('4ef9f6df-7440-49a9-a51b-2f47c7d72c9c'))]}
+-{'timestamp': '2020-06-10T19:45:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'pri': 172, 'logTime': 1591789720.0, 'loghostname': '12508 W', 'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_NOTIFICATION', 'location': 'MDC=1', 'desc': 'MAC address 0000-0022-222f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '62efcb4f-450a-454e-bebf-26ccfe228259', 'warnType': 'MAC_MAC_NOTIFICATION', 'NE': ('device=192.28.200.201', 'vlan=2048'), 'parameters': {'macAddress': '0000-0022-222f', 'port1': 'XGE4/0/5:1', 'port2': 'XGE4/0/5:2'}, 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'level': 2, 'influence': None, 'abstract': 'MAC address 0000-0022-222f move', 'ifPrev': False, 'role': [('frequency', 'son', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('4ef9f6df-7440-49a9-a51b-2f47c7d72c9c'))]}
+-{'timestamp': '2020-06-10T19:45:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2231 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'pri': 172, 'logTime': 1591789720.0, 'loghostname': '12508 W', 'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_NOTIFICATION', 'location': 'MDC=1', 'desc': 'MAC address 0000-0022-2231 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '43a34ee8-c8a2-490d-880a-b0f031c17e64', 'warnType': 'MAC_MAC_NOTIFICATION', 'NE': ('device=192.28.200.201', 'vlan=2048'), 'parameters': {'macAddress': '0000-0022-2231', 'port1': 'XGE4/0/5:1', 'port2': 'XGE4/0/5:2'}, 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'level': 2, 'influence': None, 'abstract': 'MAC address 0000-0022-2231 move', 'ifPrev': False, 'role': [('frequency', 'son', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('4ef9f6df-7440-49a9-a51b-2f47c7d72c9c'))]}
+-{'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_MOVE_BATCH', 'desc': 'Many MAC addresses has moved from port XGE4/0/5:1 to port XGE4/0/5:2 .', 'warnType': 'MAC_MAC_MOVE_BATCH', 'abstract': 'Many MAC addresses has moved from port XGE4/0/5:1 to port XGE4/0/5:2', 'influence': None, 'parameters': {}, 'NE': ('device=192.28.200.201', 'vlan=2048'), 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'role': [('frequency', 'father', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('4ef9f6df-7440-49a9-a51b-2f47c7d72c9c'))], 'logTime': 1591789720, 'ldp_host_ip': '192.28.200.201'}
++{'timestamp': '2020-06-10T19:42:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 4, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Ten-GigabitEthernet11/2/1 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'bcacb2d9-a694-4b7d-b6e7-e2f36b02d3fe', 'warnType': 'IFNET_PORT_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1'}, 'level': 4, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1 down', 'ifPrev': False, 'role': [('fatherSon', 'father', [(0, 0, 0), (0, 4, 0)], UUID('fc1e785c-2a39-476a-bf99-0ef61efc74a2')), ('fatherSon', 'father', [(0, 0, 0), (0, 5, 0)], UUID('fadd6eff-d63a-4114-8ccc-665ba3886e0b')), ('fatherSon', 'father', [(0, 0, 0), (0, 6, 0)], UUID('5c9b34aa-2ad1-4e5f-beb0-bce9b41be9ac')), ('fatherSon', 'father', [(0, 0, 0), (0, 1, 0)], UUID('5e75d059-0dbe-480c-a5e1-5cd4a25eda0d')), ('fatherSon', 'father', [(0, 0, 0), (0, 2, 0)], UUID('27084f46-49f2-4737-8026-cc095631fff9')), ('fatherSon', 'father', [(0, 0, 0), (0, 3, 0)], UUID('da03a53f-f56b-4593-a82f-c169983c272c'))]}
++{'timestamp': '2020-06-10T19:42:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:20 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.', 'pri': 172, 'logTime': 1591789340.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '810e3b3a-e1e7-48f1-8a1e-2dc1ec78fdca', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=1'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '1'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.1 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 1, 0)], UUID('5e75d059-0dbe-480c-a5e1-5cd4a25eda0d'))]}
++{'timestamp': '2020-06-10T19:42:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:20 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.', 'pri': 172, 'logTime': 1591789340.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '5306022f-4923-49d9-a366-c40e58aa0067', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=2'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '2'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.2 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 2, 0)], UUID('27084f46-49f2-4737-8026-cc095631fff9'))]}
++{'timestamp': '2020-06-10T19:42:30.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '6b5e4044-353a-4b9d-a615-7b13eb1c16c6', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=3950'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '3950'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.3950 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 3, 0)], UUID('da03a53f-f56b-4593-a82f-c169983c272c'))]}
++{'timestamp': '2020-06-10T19:42:30.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.69 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 4, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Ten-GigabitEthernet11/2/1.69 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '6e0f059f-4989-4b2c-bbc7-6040e56d6afe', 'warnType': 'IFNET_SUBINF_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=69'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '69'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.69 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 4, 0)], UUID('fc1e785c-2a39-476a-bf99-0ef61efc74a2'))]}
++{'timestamp': '2020-06-10T19:42:30.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.164 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 4, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Ten-GigabitEthernet11/2/1.164 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '84b4fef2-5e16-4cb6-93e6-f11de4efc199', 'warnType': 'IFNET_SUBINF_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=164'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '164'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.164 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 5, 0)], UUID('fadd6eff-d63a-4114-8ccc-665ba3886e0b'))]}
++{'timestamp': '2020-06-10T19:42:30.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.3928 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 4, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Ten-GigabitEthernet11/2/1.3928 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '495ccf40-a582-445a-a79d-c9dda2e11854', 'warnType': 'IFNET_SUBINF_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=11', 'port=Ten-GigabitEthernet11/2/1', 'subInf=3928'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '11', 'port': 'Ten-GigabitEthernet11/2/1', 'subInf': '3928'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet11/2/1.3928 down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 0, 0), (0, 6, 0)], UUID('5c9b34aa-2ad1-4e5f-beb0-bce9b41be9ac'))]}
++{'timestamp': '2020-06-10T19:42:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.1 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet5/2/2.1 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'dddcbb8d-aafb-491a-a0fa-3aacc96f99f3', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=5', 'port=Ten-GigabitEthernet5/2/2', 'subInf=1'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '5', 'port': 'Ten-GigabitEthernet5/2/2', 'subInf': '1'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet5/2/2.1 down', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:42:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.2 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet5/2/2.2 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '85aac076-eaa5-4890-ae5c-0e31ef1760f8', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=5', 'port=Ten-GigabitEthernet5/2/2', 'subInf=2'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '5', 'port': 'Ten-GigabitEthernet5/2/2', 'subInf': '2'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet5/2/2.2 down', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:42:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.3 changed to down.', 'pri': 172, 'logTime': 1591789350.0, 'loghostname': '16X-B', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Ten-GigabitEthernet5/2/2.3 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '2ba3d35f-fb09-403c-b231-674b03cc5da5', 'warnType': 'IFNET_SUBINF_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=5', 'port=Ten-GigabitEthernet5/2/2', 'subInf=3'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '5', 'port': 'Ten-GigabitEthernet5/2/2', 'subInf': '3'}, 'level': 5, 'influence': None, 'abstract': 'Ten-GigabitEthernet5/2/2.3 down', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '212.1.1.210', 'message': '<172>Jun 10 19:42:40 2020 75exs_leaf %%10DEV/3/FAN_ABSENT: -Slot=1; Fan 1 is absent.', 'pri': 172, 'logTime': 1591789360.0, 'loghostname': '75exs_leaf', 'module': 'DEV', 'severity': 3, 'logTypeDesc': 'FAN_ABSENT', 'location': 'Slot=1', 'desc': 'Fan 1 is absent.', 'Slot': '1', 'ldp_host_ip': '212.1.1.210', 'ldp_uuid': 'fb884197-5650-40db-ae0a-5d1ec3a6688e', 'warnType': 'DEV_FAN_ABSENT', 'NE': ('device=212.1.1.210', 'chassis=0', 'Fan=1'), 'parameters': {}, 'dictNE': {'device': '212.1.1.210', 'chassis': '0', 'Fan': '1'}, 'level': 3, 'influence': None, 'abstract': 'Fan 1 is absent.', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '212.1.1.209', 'message': '<172>Jun 10 19:42:40 2020 75exs_125g_10510x_40_ec %%10DEV/3/FAN_ABSENT: Fan 2 is absent.', 'pri': 172, 'logTime': 1591789360.0, 'loghostname': '75exs_125g_10510x_40_ec', 'module': 'DEV', 'severity': 3, 'logTypeDesc': 'FAN_ABSENT', 'location': None, 'desc': 'Fan 2 is absent.', 'ldp_host_ip': '212.1.1.209', 'ldp_uuid': 'df4e745a-402e-485f-8e64-d8ba67fc43d9', 'warnType': 'DEV_FAN_ABSENT', 'NE': ('device=212.1.1.209', 'chassis=0', 'Fan=2'), 'parameters': {}, 'dictNE': {'device': '212.1.1.209', 'chassis': '0', 'Fan': '2'}, 'level': 3, 'influence': None, 'abstract': 'Fan 2 is absent.', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10OPTMOD/4/PHONY_MODULE: -Chassis=1-Slot=2; Ten-GigabitEthernet1/2/0/23: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'OPTMOD', 'severity': 4, 'logTypeDesc': 'PHONY_MODULE', 'location': 'Chassis=1-Slot=2', 'desc': 'Ten-GigabitEthernet1/2/0/23: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!', 'Chassis': '1', 'Slot': '2', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'a0425615-7765-475a-b517-fb3b51e3224d', 'warnType': 'OPTMOD_PHONY_MODULE', 'NE': ('device=192.28.200.201', 'chassis=1', 'slot=2', 'port=Ten-GigabitEthernet1/2/0/23'), 'parameters': {}, 'dictNE': {'device': '192.28.200.201', 'chassis': '1', 'slot': '2', 'port': 'Ten-GigabitEthernet1/2/0/23'}, 'level': 4, 'influence': 'Flow stability on Ten-GigabitEthernet1/2/0/23', 'abstract': 'transceiver on Ten-GigabitEthernet1/2/0/23 is NOT sold by H3C', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '867bb90c-77ee-4c3b-a96e-252f30ddf859', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 1, 1), (0, 3, 1), (0, 13, 1)], UUID('b0f9b452-486a-468b-9904-816e16c945d2'))]}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'be80c4f9-5897-432b-b943-48652c0e4bdd', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '815bb077-d688-4561-84f3-bb358be59e56', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 1, 1), (0, 3, 1), (0, 13, 1)], UUID('b0f9b452-486a-468b-9904-816e16c945d2'))]}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to down.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '47543ee7-0255-4970-812f-3c3c73bb9484', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '3d9e79ae-71a5-4ed6-86ff-02ef729a53e7', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 5, 1), (0, 7, 1), (0, 14, 1)], UUID('6f34886e-f818-4a91-9cba-c29ae8b8ebfe'))]}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789480.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'a8ec3160-b380-48fb-bdba-ce59fb0fa516', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '16cb3d01-8f73-46c6-92d0-26d55e6b2339', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 5, 1), (0, 7, 1), (0, 14, 1)], UUID('6f34886e-f818-4a91-9cba-c29ae8b8ebfe'))]}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '6030d7b0-2389-443a-93ab-19703fcebb34', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '9586a3dc-6090-47b8-bfbe-bedf53e50866', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '2e722100-3b08-456d-9e3e-eee681e3bc62', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '69600c11-76f9-4411-aeb8-212abe33fd6b', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789490.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '3c85fb8f-10e0-4336-89a8-fc2e1cc07f2e', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN_DERIVE', 'desc': 'Physical state on the interface Tunnel4 changed from down to up in a short time.', 'warnType': 'IFNET_PHY_UPDOWN_DERIVE', 'abstract': 'interface Tunnel4 occurs Down and UP', 'influence': None, 'parameters': {}, 'NE': ('device=192.28.200.201', 'intTnl=4'), 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'role': [('sameSource', 'father', [(0, 1, 1), (0, 3, 1), (0, 13, 1)], UUID('b0f9b452-486a-468b-9904-816e16c945d2'))], 'logTime': 1591789480, 'ldp_host_ip': '192.28.200.201', 'temp': (0, 13, 1)}
++{'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN_DERIVE', 'desc': 'Physical state on the interface Tunnel4 changed from down to up in a short time.', 'warnType': 'IFNET_PHY_UPDOWN_DERIVE', 'abstract': 'interface Tunnel4 occurs Down and UP', 'influence': None, 'parameters': {}, 'NE': ('device=192.28.200.201', 'intTnl=4'), 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'role': [('sameSource', 'father', [(0, 5, 1), (0, 7, 1), (0, 14, 1)], UUID('6f34886e-f818-4a91-9cba-c29ae8b8ebfe'))], 'logTime': 1591789490, 'ldp_host_ip': '192.28.200.201', 'temp': (0, 14, 1)}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'f70241ae-2af9-493a-9671-169be4106e2b', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '777ae966-a2bb-4cd9-9588-ee410aed2819', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '69de0a0f-2c3b-4180-9443-1ff5edc02eb5', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '1f66a2d6-0925-432f-a920-14ba85dd284e', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '9fe12921-beab-4f98-98c3-a2289373bae8', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'af841872-9685-450c-bbde-4c49296541dc', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'd0a4bc86-1965-42ba-b279-a1ca92834848', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '0a45aead-c54e-434a-93cb-aa5bc297ff8b', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '94ff77c7-5883-4454-a269-d5e8380042f0', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '23f46e83-0e21-42b5-8617-8fc8523068bd', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '2c6ab11e-541d-457d-85f8-0f72f1bfa093', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '0964d469-340d-4170-8567-dbb1fa9ddaad', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'd17f907d-5eae-4a6f-a9ce-89059f2b6cda', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:10.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789510.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'd0aaa859-e011-4689-a8d6-6214b3bd08e9', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789520.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '4ce57ad4-1589-4886-aeff-8b6ad4e8e87c', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789520.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'ec447501-c0c3-44db-81e6-f3c01f203a52', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789520.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'b4d95661-8960-433f-b812-a121fa9e2f1f', 'warnType': 'IFNET_TNL_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.', 'pri': 172, 'logTime': 1591789520.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '8e71fa55-bf41-40e0-97a8-8fe1cedd9e88', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 31, 2), (0, 30, 2), (0, 32, 2)], UUID('9fcff275-55e6-4c80-a4ef-da166e601043'))]}
++{'timestamp': '2020-06-10T19:43:20.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.', 'pri': 172, 'logTime': 1591789520.0, 'loghostname': 'S7503E', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Tunnel4 changed to up.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '71370381-884c-4528-82b8-4feb1def259b', 'warnType': 'IFNET_TNL_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intTnl=4'), 'parameters': {'status': 'up'}, 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'level': 2, 'influence': None, 'abstract': 'interface Tunnel4 changed to up', 'ifPrev': False, 'role': [('sameSource', 'son', [(0, 31, 2), (0, 30, 2), (0, 32, 2)], UUID('9fcff275-55e6-4c80-a4ef-da166e601043'))]}
++{'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN_DERIVE', 'desc': 'Physical state on the interface Tunnel4 changed from down to up in a short time.', 'warnType': 'IFNET_PHY_UPDOWN_DERIVE', 'abstract': 'interface Tunnel4 occurs Down and UP', 'influence': None, 'parameters': {}, 'NE': ('device=192.28.200.201', 'intTnl=4'), 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'role': [('sameSource', 'father', [(0, 31, 2), (0, 30, 2), (0, 32, 2)], UUID('9fcff275-55e6-4c80-a4ef-da166e601043')), ('frequency', 'son', [(0, 13, 1), (0, 14, 1), (0, 32, 2), (0, 33, 2)], UUID('d2dac103-552f-4d51-816d-4746762d1a2d'))], 'logTime': 1591789520, 'ldp_host_ip': '192.28.200.201'}
++{'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_FLAPPING_DERIVE', 'desc': 'Physical state on the interface Tunnel4 Flapping.', 'warnType': 'IFNET_PHY_FLAPPING_DERIVE', 'abstract': 'Physical state on the interface Tunnel4 Flapping', 'influence': 'Interval interrupt on interface Tunnel4', 'parameters': {}, 'NE': ('device=192.28.200.201', 'intTnl=4'), 'dictNE': {'device': '192.28.200.201', 'intTnl': '4'}, 'role': [('frequency', 'father', [(0, 13, 1), (0, 14, 1), (0, 32, 2), (0, 33, 2)], UUID('d2dac103-552f-4d51-816d-4746762d1a2d'))], 'logTime': 1591789520, 'ldp_host_ip': '192.28.200.201'}
++{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface HundredGigE1/4/0/1 changed to down.', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface HundredGigE1/4/0/1 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '5fafad23-6eca-4551-b6db-5b3251fd1d21', 'warnType': 'IFNET_PORT_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'chassis=1', 'slot=4', 'port=HundredGigE1/4/0/1'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'chassis': '1', 'slot': '4', 'port': 'HundredGigE1/4/0/1'}, 'level': 4, 'influence': None, 'abstract': 'HundredGigE1/4/0/1 down', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Vlan-interface11 changed to down.', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': None, 'desc': 'Physical state on the interface Vlan-interface11 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'ca1aa1ca-5914-4bbd-a9ec-6ca1efc643c1', 'warnType': 'IFNET_INTVLAN_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intVlan=11'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intVlan': '11'}, 'level': 2, 'influence': None, 'abstract': 'Vlan-interface11 down', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Vlan-interface11 changed to down.', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': None, 'desc': 'Line protocol state on the interface Vlan-interface11 changed to down.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '5fcacde5-19a7-4dec-bc36-adfde89a16cb', 'warnType': 'IFNET_INTVLAN_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intVlan=11'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intVlan': '11'}, 'level': 2, 'influence': None, 'abstract': 'Vlan-interface11 down', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/6/OSPF_LAST_NBR_DOWN: OSPF 1 Last neighbor down event: Router ID: 1.2.3.4 Local address: 11.1.1.3 Remote address: 11.1.1.1 Reason: Ospf_ifachange.', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'OSPF', 'severity': 6, 'logTypeDesc': 'OSPF_LAST_NBR_DOWN', 'location': None, 'desc': 'OSPF 1 Last neighbor down event: Router ID: 1.2.3.4 Local address: 11.1.1.3 Remote address: 11.1.1.1 Reason: Ospf_ifachange.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'b475c89e-1708-41c7-b1f6-073d24895622', 'warnType': 'OSPF_OSPF_LAST_NBR_DOWN', 'NE': ('device=192.28.200.201', 'route=ospf', 'ospfId=1'), 'parameters': {'routerId': '1.2.3.4', 'route': 'ospf', 'ospfId': '1', 'localAddress': '11.1.1.3', 'remoteAddress': '11.1.1.1', 'reason': 'Ospf_ifachange.'}, 'dictNE': {'device': '192.28.200.201', 'route': 'ospf', 'ospfId': '1'}, 'level': 3, 'influence': 'OSPF neighbor down', 'abstract': 'OSPF 1 Last neighbor down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 4, 3), (0, 3, 3)], UUID('aa31d787-aa5b-4e4d-ac3f-645585cb35ef'))]}
++{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG: OSPF 1 Neighbor 11.1.1.1(Vlan-interface11) changed from FULL to DOWN.', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'OSPF', 'severity': 5, 'logTypeDesc': 'OSPF_NBR_CHG', 'location': None, 'desc': 'OSPF 1 Neighbor 11.1.1.1(Vlan-interface11) changed from FULL to DOWN.', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '0a72568d-e865-4d0b-ac69-d9d54d73c58d', 'warnType': 'OSPF_OSPF_NBR_CHG', 'NE': ('device=192.28.200.201', 'route=ospf', 'ospfId=1'), 'parameters': {'neighbor': '11.1.1.1', 'intVlan': '11', 'status': 'DOWN'}, 'dictNE': {'device': '192.28.200.201', 'route': 'ospf', 'ospfId': '1'}, 'level': 3, 'influence': 'OSPF neighbor down', 'abstract': 'OSPF 1 Neighbor 11.1.1.1(11) down', 'ifPrev': False, 'role': [('fatherSon', 'father', [(0, 4, 3), (0, 5, 3)], UUID('7fe01fc6-60ab-40af-8794-34a77045766b')), ('fatherSon', 'father', [(0, 4, 3), (0, 3, 3)], UUID('aa31d787-aa5b-4e4d-ac3f-645585cb35ef'))]}
++{'timestamp': '2020-06-10T19:43:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG_REASON: OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215', 'pri': 172, 'logTime': 1591789600.0, 'loghostname': 'S125G2', 'module': 'OSPF', 'severity': 5, 'logTypeDesc': 'OSPF_NBR_CHG_REASON', 'location': None, 'desc': 'OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '56fcbb3f-e343-40e7-8f7f-396552ea1909', 'warnType': 'OSPF_OSPF_NBR_CHG_REASON', 'NE': ('device=192.28.200.201', 'route=ospf', 'ospfId=1', 'area=0.0.0.0'), 'parameters': {'routerId': '3.3.3.3', 'neighborAddress': '11.1.1.1', 'nbrId': '1.2.3.4', 'status': 'DOWN'}, 'dictNE': {'device': '192.28.200.201', 'route': 'ospf', 'ospfId': '1', 'area': '0.0.0.0'}, 'level': 4, 'influence': None, 'abstract': None, 'ifPrev': False, 'role': [('fatherSon', 'son', [(0, 4, 3), (0, 5, 3)], UUID('7fe01fc6-60ab-40af-8794-34a77045766b'))]}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10OSPF/5/OSPF_NBR_CHG: -MDC=1; OSPF 1 Neighbor 222.1.1.2(Vlan-interface4094) changed from FULL to DOWN.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'OSPF', 'severity': 5, 'logTypeDesc': 'OSPF_NBR_CHG', 'location': 'MDC=1', 'desc': 'OSPF 1 Neighbor 222.1.1.2(Vlan-interface4094) changed from FULL to DOWN.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'd22464a5-4df2-474d-a96f-10bf650cc458', 'warnType': 'OSPF_OSPF_NBR_CHG', 'NE': ('device=192.28.200.201', 'route=ospf', 'ospfId=1'), 'parameters': {'neighbor': '222.1.1.2', 'intVlan': '4094', 'status': 'DOWN'}, 'dictNE': {'device': '192.28.200.201', 'route': 'ospf', 'ospfId': '1'}, 'level': 3, 'influence': 'OSPF neighbor down', 'abstract': 'OSPF 1 Neighbor 222.1.1.2(4094) down', 'ifPrev': False, 'role': []}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10DEV/2/BOARD_STATE_FAULT: -MDC=1; Board state changed to Fault on slot 2, type is LSXM1CGQ36TD1.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'DEV', 'severity': 2, 'logTypeDesc': 'BOARD_STATE_FAULT', 'location': 'MDC=1', 'desc': 'Board state changed to Fault on slot 2, type is LSXM1CGQ36TD1.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '36df8ca9-c7b8-410e-8345-7af1c225f536', 'warnType': 'DEV_BOARD_STATE_FAULT', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=2'), 'parameters': {}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '2'}, 'level': 3, 'influence': None, 'abstract': 'Slot 2 Fault', 'ifPrev': False, 'role': [('fatherSon', 'father', [(1, 0, 4), (1, 4, 4)], UUID('19ed714e-e5f4-4970-9243-a938e7475bff')), ('fatherSon', 'son', [(1, 1, 4), (1, 0, 4)], UUID('c5b0f5eb-11cf-425e-acdb-628ec7352353'))]}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10DEV/5/BOARD_REBOOT: -MDC=1; Board is rebooting on slot 2.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'DEV', 'severity': 5, 'logTypeDesc': 'BOARD_REBOOT', 'location': 'MDC=1', 'desc': 'Board is rebooting on slot 2.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '882f8686-18b8-4901-b828-99057074948f', 'warnType': 'DEV_BOARD_REBOOT', 'NE': ('device=192.28.200.201', 'chassis=0', 'slot=2'), 'parameters': {}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'slot': '2'}, 'level': 3, 'influence': None, 'abstract': 'Slot 2 Rebooting', 'ifPrev': False, 'role': [('fatherSon', 'father', [(1, 1, 4), (1, 0, 4)], UUID('c5b0f5eb-11cf-425e-acdb-628ec7352353'))]}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10DEV/2/FAN_FAILED: -MDC=1; Fan 1 failed.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'DEV', 'severity': 2, 'logTypeDesc': 'FAN_FAILED', 'location': 'MDC=1', 'desc': 'Fan 1 failed.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'c6c69d43-d58d-478c-8f37-85df578905ad', 'warnType': 'DEV_FAN_FAILED', 'NE': ('device=192.28.200.201', 'chassis=0', 'Fan=1'), 'parameters': {}, 'dictNE': {'device': '192.28.200.201', 'chassis': '0', 'Fan': '1'}, 'level': 3, 'influence': None, 'abstract': 'Fan 1 failed.', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10IFNET/3/PHY_UPDOWN: -MDC=1; Physical state on the interface Vlan-interface4094 changed to down.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'IFNET', 'severity': 3, 'logTypeDesc': 'PHY_UPDOWN', 'location': 'MDC=1', 'desc': 'Physical state on the interface Vlan-interface4094 changed to down.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '7c2467a5-eebf-498d-ae4e-519ae8cd1fb0', 'warnType': 'IFNET_INTVLAN_PHY_UPDOWN', 'NE': ('device=192.28.200.201', 'intVlan=4094'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intVlan': '4094'}, 'level': 2, 'influence': None, 'abstract': 'Vlan-interface4094 down', 'ifPrev': False}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10IFNET/5/LINK_UPDOWN: -MDC=1; Line protocol state on the interface Vlan-interface4094 changed to down.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'IFNET', 'severity': 5, 'logTypeDesc': 'LINK_UPDOWN', 'location': 'MDC=1', 'desc': 'Line protocol state on the interface Vlan-interface4094 changed to down.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'f603b049-99a6-495b-b777-8f4e63441b2a', 'warnType': 'IFNET_INTVLAN_LINK_UPDOWN', 'NE': ('device=192.28.200.201', 'intVlan=4094'), 'parameters': {'status': 'down'}, 'dictNE': {'device': '192.28.200.201', 'intVlan': '4094'}, 'level': 2, 'influence': None, 'abstract': 'Vlan-interface4094 down', 'ifPrev': False, 'role': [('fatherSon', 'father', [(1, 4, 4), (1, 5, 4)], UUID('c8bdfa8c-a4b8-4c5c-90b3-d390e10e7c0b')), ('fatherSon', 'father', [(1, 4, 4), (1, 6, 4)], UUID('10279589-2e31-4c30-b9be-0e2ed3a0f784')), ('fatherSon', 'father', [(1, 4, 4), (1, 7, 4)], UUID('8023f4a3-4a6d-4b11-8b85-fef12ed6a4ad')), ('fatherSon', 'son', [(1, 0, 4), (1, 4, 4)], UUID('19ed714e-e5f4-4970-9243-a938e7475bff'))]}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10OSPFV3/5/OSPFv3_NBR_CHG: -MDC=1; OSPFv3 1 Neighbor 2.2.2.2(Vlan-interface4094) received KillNbr and its state from FULL to DOWN.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'OSPFV3', 'severity': 5, 'logTypeDesc': 'OSPFv3_NBR_CHG', 'location': 'MDC=1', 'desc': 'OSPFv3 1 Neighbor 2.2.2.2(Vlan-interface4094) received KillNbr and its state from FULL to DOWN.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '8aaf197c-c53a-418e-a5a0-d7b8e9b59b24', 'warnType': 'OSPFV3_OSPFv3_NBR_CHG', 'NE': ('device=192.28.200.201', 'route=ospfv3', 'ospfv3Id=1'), 'parameters': {'neighbor': '2.2.2.2', 'intVlan': '4094', 'status': 'DOWN'}, 'dictNE': {'device': '192.28.200.201', 'route': 'ospfv3', 'ospfv3Id': '1'}, 'level': 3, 'influence': 'OSPFv3 Neighbor down', 'abstract': 'OSPFv3 1 Neighbor down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(1, 4, 4), (1, 5, 4)], UUID('c8bdfa8c-a4b8-4c5c-90b3-d390e10e7c0b'))]}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10ISIS/5/ISIS_NBR_CHG: -MDC=1; IS-IS 1, Level-1 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'ISIS', 'severity': 5, 'logTypeDesc': 'ISIS_NBR_CHG', 'location': 'MDC=1', 'desc': 'IS-IS 1, Level-1 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '6e0be453-785f-4ac3-a27a-00906c02009d', 'warnType': 'ISIS_ISIS_NBR_CHG', 'NE': ('device=192.28.200.201', 'route=isis', 'isisId=1'), 'parameters': {'adjacencyLevel': 'Level-1', 'adjacencyId': '0000.0000.0001', 'intVlan': '4094', 'status': 'DOWN', 'reason': 'circuit data clean'}, 'dictNE': {'device': '192.28.200.201', 'route': 'isis', 'isisId': '1'}, 'level': 3, 'influence': 'ISIS Neighbor down', 'abstract': 'ISIS 1 Neighbor down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(1, 4, 4), (1, 6, 4)], UUID('10279589-2e31-4c30-b9be-0e2ed3a0f784'))]}
++{'timestamp': '2020-06-10T19:44:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:47:40 2020 12508 W %%10ISIS/5/ISIS_NBR_CHG: -MDC=1; IS-IS 1, Level-2 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean.', 'pri': 172, 'logTime': 1591789660.0, 'loghostname': '12508 W', 'module': 'ISIS', 'severity': 5, 'logTypeDesc': 'ISIS_NBR_CHG', 'location': 'MDC=1', 'desc': 'IS-IS 1, Level-2 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'd279cd76-d542-4394-9832-df6d439154d5', 'warnType': 'ISIS_ISIS_NBR_CHG', 'NE': ('device=192.28.200.201', 'route=isis', 'isisId=1'), 'parameters': {'adjacencyLevel': 'Level-2', 'adjacencyId': '0000.0000.0001', 'intVlan': '4094', 'status': 'DOWN', 'reason': 'circuit data clean'}, 'dictNE': {'device': '192.28.200.201', 'route': 'isis', 'isisId': '1'}, 'level': 3, 'influence': 'ISIS Neighbor down', 'abstract': 'ISIS 1 Neighbor down', 'ifPrev': False, 'role': [('fatherSon', 'son', [(1, 4, 4), (1, 7, 4)], UUID('8023f4a3-4a6d-4b11-8b85-fef12ed6a4ad'))]}
++{'timestamp': '2020-06-10T19:45:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2234 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'pri': 172, 'logTime': 1591789720.0, 'loghostname': '12508 W', 'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_NOTIFICATION', 'location': 'MDC=1', 'desc': 'MAC address 0000-0022-2234 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'b3ea0884-214f-49c5-990d-dd484188fb28', 'warnType': 'MAC_MAC_NOTIFICATION', 'NE': ('device=192.28.200.201', 'vlan=2048'), 'parameters': {'macAddress': '0000-0022-2234', 'port1': 'XGE4/0/5:1', 'port2': 'XGE4/0/5:2'}, 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'level': 2, 'influence': None, 'abstract': 'MAC address 0000-0022-2234 move', 'ifPrev': False, 'role': [('frequency', 'son', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('edfd79c0-0c29-4f47-8bc8-e366efe01e2e'))]}
++{'timestamp': '2020-06-10T19:45:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-224f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'pri': 172, 'logTime': 1591789720.0, 'loghostname': '12508 W', 'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_NOTIFICATION', 'location': 'MDC=1', 'desc': 'MAC address 0000-0022-224f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'c8565642-cdb2-4f8a-beed-a2b89d512522', 'warnType': 'MAC_MAC_NOTIFICATION', 'NE': ('device=192.28.200.201', 'vlan=2048'), 'parameters': {'macAddress': '0000-0022-224f', 'port1': 'XGE4/0/5:1', 'port2': 'XGE4/0/5:2'}, 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'level': 2, 'influence': None, 'abstract': 'MAC address 0000-0022-224f move', 'ifPrev': False, 'role': [('frequency', 'son', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('edfd79c0-0c29-4f47-8bc8-e366efe01e2e'))]}
++{'timestamp': '2020-06-10T19:45:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222b in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'pri': 172, 'logTime': 1591789720.0, 'loghostname': '12508 W', 'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_NOTIFICATION', 'location': 'MDC=1', 'desc': 'MAC address 0000-0022-222b in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'acccbc8f-555c-45b1-9729-b924db68ef13', 'warnType': 'MAC_MAC_NOTIFICATION', 'NE': ('device=192.28.200.201', 'vlan=2048'), 'parameters': {'macAddress': '0000-0022-222b', 'port1': 'XGE4/0/5:1', 'port2': 'XGE4/0/5:2'}, 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'level': 2, 'influence': None, 'abstract': 'MAC address 0000-0022-222b move', 'ifPrev': False, 'role': [('frequency', 'son', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('edfd79c0-0c29-4f47-8bc8-e366efe01e2e'))]}
++{'timestamp': '2020-06-10T19:45:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'pri': 172, 'logTime': 1591789720.0, 'loghostname': '12508 W', 'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_NOTIFICATION', 'location': 'MDC=1', 'desc': 'MAC address 0000-0022-222f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': 'e16a3205-acf4-4cea-bb2d-ffb1923ef8b1', 'warnType': 'MAC_MAC_NOTIFICATION', 'NE': ('device=192.28.200.201', 'vlan=2048'), 'parameters': {'macAddress': '0000-0022-222f', 'port1': 'XGE4/0/5:1', 'port2': 'XGE4/0/5:2'}, 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'level': 2, 'influence': None, 'abstract': 'MAC address 0000-0022-222f move', 'ifPrev': False, 'role': [('frequency', 'son', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('edfd79c0-0c29-4f47-8bc8-e366efe01e2e'))]}
++{'timestamp': '2020-06-10T19:45:40.000Z', 'host': '192.28.200.201', 'message': '<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2231 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'pri': 172, 'logTime': 1591789720.0, 'loghostname': '12508 W', 'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_NOTIFICATION', 'location': 'MDC=1', 'desc': 'MAC address 0000-0022-2231 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.', 'MDC': '1', 'ldp_host_ip': '192.28.200.201', 'ldp_uuid': '2f742261-8579-4a7f-bb10-7b623b0c3f88', 'warnType': 'MAC_MAC_NOTIFICATION', 'NE': ('device=192.28.200.201', 'vlan=2048'), 'parameters': {'macAddress': '0000-0022-2231', 'port1': 'XGE4/0/5:1', 'port2': 'XGE4/0/5:2'}, 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'level': 2, 'influence': None, 'abstract': 'MAC address 0000-0022-2231 move', 'ifPrev': False, 'role': [('frequency', 'son', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('edfd79c0-0c29-4f47-8bc8-e366efe01e2e'))]}
++{'module': 'MAC', 'severity': 4, 'logTypeDesc': 'MAC_MOVE_BATCH', 'desc': 'Many MAC addresses has moved from port XGE4/0/5:1 to port XGE4/0/5:2 .', 'warnType': 'MAC_MAC_MOVE_BATCH', 'abstract': 'Many MAC addresses has moved from port XGE4/0/5:1 to port XGE4/0/5:2', 'influence': None, 'parameters': {}, 'NE': ('device=192.28.200.201', 'vlan=2048'), 'dictNE': {'device': '192.28.200.201', 'vlan': '2048'}, 'role': [('frequency', 'father', [(1, 0, 5), (1, 1, 5), (1, 2, 5), (1, 3, 5), (1, 4, 5), (1, 5, 5)], UUID('edfd79c0-0c29-4f47-8bc8-e366efe01e2e'))], 'logTime': 1591789720, 'ldp_host_ip': '192.28.200.201'}
+diff --git a/data/rules.json b/data/rules.json
+index 49dbdf8..f025920 100644
+--- a/data/rules.json
++++ b/data/rules.json
+@@ -189,5 +189,36 @@
+     "derived": ["warn2.NE= warn1.NE"],
+     "timeRange": 120,
+     "times": 3
++  },
++  {
++    "rule_id":14,
++    "rule_name":"IFNET_PORT_LINK_UPDOWN -> LAGG_LAGG_INACTIVE_OTHER",
++    "description": "",
++    "correlation_mode":"fatherSon",
++    "is_enable":"true",
++    "create_by": "system",
++    "create_time": "2020-10-13 14:28:06",
++    "fatherWarn": "IFNET_PORT_LINK_UPDOWN",
++    "sonWarn": ["LAGG_LAGG_INACTIVE_OTHER"],
++    "allWarnings": ["IFNET_PORT_LINK_UPDOWN","LAGG_LAGG_INACTIVE_OTHER"],
++    "satisfy":["warn1.NE.port==warn2.parameters.memberPort",
++      "warn1.parameters.status==down",
++      "warn2.parameters.status==inactive"],
++    "timeRange": 10
++  },
++  {
++    "rule_id":15,
++    "rule_name":"LAGG_LAGG_INACTIVE_OTHER -> DRNI_DRNI_IFEVENT_DR_NOSELECTED",
++    "description": "",
++    "correlation_mode":"fatherSon",
++    "is_enable":"true",
++    "create_by": "system",
++    "create_time": "2020-10-13 14:28:06",
++    "fatherWarn": "LAGG_LAGG_INACTIVE_OTHER",
++    "sonWarn": ["DRNI_DRNI_IFEVENT_DR_NOSELECTED"],
++    "allWarnings": ["LAGG_LAGG_INACTIVE_OTHER","DRNI_DRNI_IFEVENT_DR_NOSELECTED"],
++    "satisfy":["warn1.NE.aggregationGroup==warn2.NE.localDrInterface",
++      "warn1.parameters.status==warn2.parameters.status"],
++    "timeRange": 4
+   }
+ ]
+\ No newline at end of file
+diff --git a/logParser.py b/logParser.py
+index 7854c26..379d253 100644
+--- a/logParser.py
++++ b/logParser.py
+@@ -172,7 +172,7 @@ def parse_event(event_json):
+                     'port={}'.format(interface)
+                 )
+                 result['warnType'] = 'IFNET_PORT_LINK_UPDOWN'
+-                abstract = "{} down".format(interface)
++                abstract = "{} link down".format(interface)
+ 
+             # influence = None
+             result['parameters'] = {"status": parsed_desc['status']}
+@@ -239,11 +239,11 @@ def parse_event(event_json):
+ 
+             if sub_inf:
+                 result['dictNE'] = {'device': device,
+-                                        'chassis': chassis,
+-                                        'slot': slot,
+-                                        'port': interface,
+-                                        'subInf': sub_inf
+-                                        }
++                                    'chassis': chassis,
++                                    'slot': slot,
++                                    'port': interface,
++                                    'subInf': sub_inf
++                                    }
+                 result['NE'] = (
+                     'device={}'.format(event['ldp_host_ip']),
+                     'chassis={}'.format(chassis),
+@@ -266,7 +266,7 @@ def parse_event(event_json):
+                     'port={}'.format(interface)
+                 )
+                 result['warnType'] = 'IFNET_PORT_PHY_UPDOWN'
+-                result['abstract'] = '{} down'.format(interface)
++                result['abstract'] = '{} physical down'.format(interface)
+ 
+             result['parameters'] = {"status": parsed_desc['status']}
+             result['level'] = len(result['NE'])
+@@ -623,6 +623,49 @@ def parse_event(event_json):
+             result['abstract'] = "MAC address {} move".format(mac_address)
+ 
+             return result
++    elif module == "LAGG":
++        if log_type_desc == "LAGG_INACTIVE_OTHER":
++            patterns = ["Member port %{DATA:memberPort} of aggregation group %{DATA:aggregationGroup} changed to the inactive state, because other reason."]
++            # Member port XGE3/0/26 of aggregation group BAGG40 changed to the inactive state, because other reason.
++            parsed_desc = parse_patterns(patterns, desc)
++
++            aggregation_group = parsed_desc["aggregationGroup"]
++            if re.match("BAGG(\d+)", aggregation_group):
++                num = re.match("BAGG(\d+)", aggregation_group).group(1)
++                aggregation_group = "Bridge-Aggregation" + num
++
++            member_port = re.sub("XGE", "Ten-GigabitEthernet", parsed_desc["memberPort"])
++
++            result['dictNE'] = {'device': device,
++                                'aggregationGroup': aggregation_group}
++
++            result['NE'] = ('device={}'.format(device),
++                            'aggregationGroup={}'.format(aggregation_group))
++            result['parameters'] = {'memberPort': member_port,
++                                    'status': 'inactive'}
++            result['abstract'] = "hhhhh"
++            result['level'] = 2
++    elif module == "DRNI":
++        if log_type_desc == "DRNI_IFEVENT_DR_NOSELECTED":
++            patterns = ["Local DR interface %{DATA:localDrInterface} in DR group %{NUMBER:drGroup} does not have Selected member ports because %{DATA}$"]
++            # Local DR interface Bridge-Aggregation40 in DR group 40 does not have Selected member ports because the aggregate interface went down. Please check the aggregate link status.
++
++            parsed_desc = parse_patterns(patterns, desc)
++
++            local_dr_interface = parsed_desc['localDrInterface']
++            dr_group = parsed_desc['drGroup']
++
++            result['dictNE'] = {'device': device,
++                                'localDrInterface': local_dr_interface}
++
++            result['NE'] = ('device={}'.format(device),
++                            'localDrInterface={}'.format(local_dr_interface))
++            result['parameters'] = {'drGroup': dr_group,
++                                    'status': 'inactive'}
++            result['level'] = len(result['NE'])
++            result['abstract'] = "Local DR interface {} in DR group {} does not have Selected member ports".format(local_dr_interface, dr_group)
++            result['influence'] = "interface {} changed to inactive".format(local_dr_interface)
++
+     else:
+         result.pop('abstract')
+         result.pop('influence')
+@@ -662,30 +705,35 @@ def parse(log_dict):
+ 
+ 
+ if __name__ == "__main__":
+-    log = {
+-            "desc":"OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215",
+-            "createTime":"2020-09-14T17:02:20",
+-            "pri":172,
+-            "module":"OSPF",
+-            "loghostname":"S125G2",
+-            "logTypeDesc":"OSPF_NBR_CHG_REASON",
+-            "label":"lvhong",
+-            "severityLevel":"提示",
+-            "@version":"1",
+-            "tags":[
+-                "_grokparsefailure"
+-            ],
+-            "@timestamp":"2020-09-14T09:02:20.896Z",
+-            "severity":5,
+-            "ldp_host_ip":"192.28.200.201",
+-            "message":"<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG_REASON: OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215",
+-            "source_name":"h3c_switch_lo",
+-            "ldp_timestamp":"2020-09-14T09:02:20.896Z",
+-            "sendHost":"192.28.200.201",
+-            "ldp_uuid":"1c813295-e604-40ae-9841-7636448549ec",
+-            "parse_success":"false",
+-            "failure_reason":"grok解析失败",
+-            "logTime":"2020-06-10T11:46:40.000Z"}
++    # log = {
++    #         "desc":"OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215",
++    #         "createTime":"2020-09-14T17:02:20",
++    #         "pri":172,
++    #         "module":"OSPF",
++    #         "loghostname":"S125G2",
++    #         "logTypeDesc":"OSPF_NBR_CHG_REASON",
++    #         "label":"lvhong",
++    #         "severityLevel":"提示",
++    #         "@version":"1",
++    #         "tags":[
++    #             "_grokparsefailure"
++    #         ],
++    #         "@timestamp":"2020-09-14T09:02:20.896Z",
++    #         "severity":5,
++    #         "ldp_host_ip":"192.28.200.201",
++    #         "message":"<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG_REASON: OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215",
++    #         "source_name":"h3c_switch_lo",
++    #         "ldp_timestamp":"2020-09-14T09:02:20.896Z",
++    #         "sendHost":"192.28.200.201",
++    #         "ldp_uuid":"1c813295-e604-40ae-9841-7636448549ec",
++    #         "parse_success":"false",
++    #         "failure_reason":"grok解析失败",
++    #         "logTime":"2020-06-10T11:46:40.000Z"}
++    # log = {"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10DRNI/6/DRNI_IFEVENT_DR_NOSELECTED: Local DR interface Bridge-Aggregation40 in DR group 40 does not have Selected member ports because the aggregate interface went down. Please check the aggregate link status."}
++    # log = {"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10LAGG/6/LAGG_INACTIVE_OTHER: Member port XGE3/0/26 of aggregation group BAGG40 changed to the inactive state, because other reason."}
++    # log = {"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet3/0/26 changed to down."}
++    # log = {"timestamp":"2020-06-10T19:43:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG_REASON: OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215"}
++    log = {"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet3/0/26 changed to down."}
+ 
+     r = parse(log)
+ 
+diff --git a/main_multiprocess.py b/main_multiprocess.py
+index 3bbe3db..23c0462 100644
+--- a/main_multiprocess.py
++++ b/main_multiprocess.py
+@@ -58,6 +58,7 @@ def print_summary(summary):
+         warning_set_summary = 'From {0} to {1}, device {2} encoutered \nthe following events:\n'.format(start_time, end_time,
+                                                                                                         value['device'])
+         events = value.get('events')
++        print(events)
+         for i in range(len(events)):
+             warning_set_summary += '    ' + (str(i + 1) + '. ' + events[i] + '\n')
+         influences = value.get('influences')
+@@ -83,7 +84,7 @@ def consumer(warn_queue, lock, timeslot, timeout, group_overlap, flapping_flag):
+ 
+     rule_matching = ProcessWarningMatch()
+ 
+-    f = open('data/output_log_for_matched_results.txt', 'w+')
++    f = open('data/output_mergerd_group.txt', 'w+')
+ 
+     while True:
+         # if the last warning arrives empty_time_range seconds ago, blah blah...
+@@ -162,11 +163,11 @@ def consumer(warn_queue, lock, timeslot, timeout, group_overlap, flapping_flag):
+                 all_warn_dict[warn['ldp_host_ip']] = [warn]
+ 
+         merged_groups = process_data(all_warn_dict, flapping_flag, group_overlap)
+-        # print(555)
+-        # f.write(str(merged_groups))
++        f.write('555')
++        f.write(str(merged_groups))
+         # print([len(x) for x in merged_groups])
+-        # f.write('\n')
+-        # f.flush()
++        f.write('\n')
++        f.flush()
+         # for x in merged_groups:
+         #     print(x)
+         #     print(len(x))
+@@ -181,17 +182,17 @@ def consumer(warn_queue, lock, timeslot, timeout, group_overlap, flapping_flag):
+         #     print(x)
+         # print('---')
+         # print('processed')
+-        for x in processed_result:
+-            for y in x:
+-                try:
+-                    if y['ifPrev'] == False:
+-                        f.write(str(y))
+-                        f.write('\n')
+-                        f.flush()
+-                except:
+-                    f.write(str(y))
+-                    f.write('\n')
+-                    f.flush()
++        # for x in processed_result:
++        #     for y in x:
++        #         try:
++        #             if y['ifPrev'] == False:
++        #                 f.write(str(y))
++        #                 f.write('\n')
++        #                 f.flush()
++        #         except:
++        #             f.write(str(y))
++        #             f.write('\n')
++        #             f.flush()
+         # print(summary_result)
+         cur_warn_list = []
+         # all_warn_dict = {}
+diff --git a/scratch.py b/scratch.py
+index e194cd6..be4d262 100644
+--- a/scratch.py
++++ b/scratch.py
+@@ -22,14 +22,20 @@ class ProcessWarningMatch:
+         self.window_count += 1
+         summary = {}
+         summary_list = []
++        # print('111111111111')
++        # print(process_result)
+         for warn_group in process_result:
+             device = None
+             events = []
+             influences = []
+             for warnings in warn_group:
+                 # if "'father'," in str(warnings.get('role', None)):
++                if "'father'," in str(warnings.get('role', None)) and warnings.get('ifPrev'):
++                    continue
+                 roles = warnings.get('role', None)
+                 roles = [] if roles is None else roles
++                # print("wtf???????")
++                # print(warnings.get('role'), "++++++", warnings.get('abstract'))
+                 if "'son'," not in str(roles):
+                     if device is None:
+                         device = warnings.get('ldp_host_ip')
+@@ -45,8 +51,7 @@ class ProcessWarningMatch:
+ # try0 = ProcessWarningMatch()
+ # times = [1591789350.0,1591789470.0,1591789530.0,1591789590.0,1591789650,1591789710.0]
+ # for i in range(6):
+-#     _, curr_res, summary = try0.run(all_data[i], times[i])
+-#     # print("********************************************************")
++#     _, curr_res, summary = try0.run(#     # print("**********************all_data[i], times[i])**********************************")
+ #     orig =  [tw1, tw2, tw3, tw4, tw5, tw6]
+ #     orig = orig.copy()
+     # for warnset_id in range(len(curr_res)):
+diff --git a/utils.py b/utils.py
+index b26d38b..a093461 100644
+--- a/utils.py
++++ b/utils.py
+@@ -48,6 +48,9 @@ def check_rules(satisfy, warn_list):
+     output:
+         res: bool, True if satisfies the whole thing
+     '''
++    if warn_list[0].get('ifPrev', None) and warn_list[1].get('ifPrev', None):
++        # print(warn_list)
++        return False
+     if len(warn_list) < 2:
+         return False
+     for rule in satisfy:

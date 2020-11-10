@@ -81,3 +81,9 @@
 {"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222b in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
 {"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
 {"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2231 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
+
+# demo7
+{"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet3/0/26 changed to down."}
+{"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10LAGG/6/LAGG_INACTIVE_OTHER: Member port XGE3/0/26 of aggregation group BAGG40 changed to the inactive state, because other reason."}
+{"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet3/0/26 changed to down."}
+{"timestamp":"2020-06-10T19:46:40.000Z", "host":"100.11.1.35", "message":"<172>Jun 10 19:49:40 2020 S7503X %%10DRNI/6/DRNI_IFEVENT_DR_NOSELECTED: Local DR interface Bridge-Aggregation40 in DR group 40 does not have Selected member ports because the aggregate interface went down. Please check the aggregate link status."}

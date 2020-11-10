@@ -22,14 +22,20 @@ class ProcessWarningMatch:
         self.window_count += 1
         summary = {}
         summary_list = []
+        # print('111111111111')
+        # print(process_result)
         for warn_group in process_result:
             device = None
             events = []
             influences = []
             for warnings in warn_group:
                 # if "'father'," in str(warnings.get('role', None)):
+                if "'father'," in str(warnings.get('role', None)) and warnings.get('ifPrev'):
+                    continue
                 roles = warnings.get('role', None)
                 roles = [] if roles is None else roles
+                # print("wtf???????")
+                # print(warnings.get('role'), "++++++", warnings.get('abstract'))
                 if "'son'," not in str(roles):
                     if device is None:
                         device = warnings.get('ldp_host_ip')
@@ -45,8 +51,7 @@ class ProcessWarningMatch:
 # try0 = ProcessWarningMatch()
 # times = [1591789350.0,1591789470.0,1591789530.0,1591789590.0,1591789650,1591789710.0]
 # for i in range(6):
-#     _, curr_res, summary = try0.run(all_data[i], times[i])
-#     # print("********************************************************")
+#     _, curr_res, summary = try0.run(#     # print("**********************all_data[i], times[i])**********************************")
 #     orig =  [tw1, tw2, tw3, tw4, tw5, tw6]
 #     orig = orig.copy()
     # for warnset_id in range(len(curr_res)):

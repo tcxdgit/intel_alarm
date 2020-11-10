@@ -48,20 +48,29 @@ class WarningMatch:
                                     continue
                             match_list.append(tuple((warn_group_id, warn_id, warn_type, int(warn.get('logTime', None)))))
                 if match_list:
+
                     mode = rule.get('correlation_mode', None)
                     if mode == "fatherSon":
                         self.father_son_match(warn_group, match_list, rule)
                     if mode == "sameSource":
                         self.same_source_match(warn_group, match_list, rule)
                     if mode == "frequency":
+                        # print(self.freq_warning_cash)
                         self.frequency_match(warn_group, match_list, rule)
         last_30s = []
         for i in self.warn_groups:
             for j in i:
                 if int(j.get('logTime')) > self.mid_time:
                     if j.get('temp', None) is None:
-                        last_30s.append(j)
-
+                        # last_30s.append(j)
+                        try:
+                            roles = j.get('role', None)
+                            if 'son' in str(roles):
+                                continue
+                            else:
+                                last_30s.append(j)
+                        except:
+                            last_30s.append(j)
         return last_30s, self.warn_groups, self.freq_warning_cash
 
     def father_son_match(self, warn_group, match_list, rule):
@@ -257,6 +266,7 @@ class WarningMatch:
                 break
 
     def frequency_match(self, warn_group, match_list, rule):
+        # print(self.freq_warning_cash)
         rule_id = rule.get('rule_id', None)
         satisfies = rule.get('satisfy', None)
         time_range = int(rule.get('timeRange', None))
@@ -266,6 +276,8 @@ class WarningMatch:
             # print("_________________________", self.freq_warning_cash.get(rule_id))
             # check satisfy
             this_warning = warn_group[warn_tuple[1]]
+            if this_warning.get('ifPrev'):
+                continue
             if len(self.freq_warning_cash.get(rule_id)) == 0:
                 this_warning['temp'] = (warn_tuple[0], warn_tuple[1], self.time_window)
                 self.freq_warning_cash.get(rule_id).append(this_warning)

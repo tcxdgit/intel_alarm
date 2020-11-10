@@ -7,13 +7,16 @@ def get_warn_role(rules):
     for i, rule in enumerate(rules):
         correlation_mode = rule['correlation_mode']
         rule_id = rule['rule_id']
-        if correlation_mode == "fatherSon":
-            rule_id = rule['rule_id']
-            primary_warn = rule['fatherWarn']
-            secondary_warn = rule['sonWarn']
-        else:
-            primary_warn = rule['derivedWarn']
-            secondary_warn = rule['warn']
+        # if correlation_mode == "fatherSon":
+        #     # rule_id = rule['rule_id']
+        #     primary_warn = rule['fatherWarn']
+        #     secondary_warn = rule['sonWarn']
+        # else:
+        #     primary_warn = rule['derivedWarn']
+        #     secondary_warn = rule['warn']
+
+        primary_warn = rule['upstreamWarn']
+        secondary_warn = rule['downstreamWarn']
 
         rule_id_list.append(rule_id)
 
@@ -53,6 +56,12 @@ def sort_rule(rules):
                 pass
 
     rule_id_sorted = rule_id_list.copy()
+
+    # 对待调整的rule id进行排序，避免出现先混乱
+    # 未经排序的rule_id举例:[(1, 2), (1, 3), (1, 14), (8, 9), (8, 10), (4, 5), (4, 6), (7, 8), (14, 15)]
+    # 其中， (8, 9), (8, 10)和后面的(7, 8)产生了混乱
+    rule_adjust.sort()
+
     for adjust in rule_adjust:
         secondary, primary = adjust
 
@@ -72,7 +81,7 @@ def sort_rule(rules):
     return sorted_rules, rule_adjust
 
 
-def get_rules(rule_file='data/rules.json'):
+def get_rules(rule_file='data/new_rules.json'):
     with open(rule_file, encoding="utf-8") as f_rule:
         rules = json.load(f_rule)
 

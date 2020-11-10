@@ -53,7 +53,7 @@
     "is_enable":"true",
     "create_by": "system",
     "create_time": "2020-08-26 14:28:06",
-    "fatherWarn": "IFNET_INTVLANLINK_UPDOWN",
+    "fatherWarn": "IFNET_INTVLAN_LINK_UPDOWN",
     "sonWarn": ["OSPF_OSPF_NBR_CHG"],
     "allWarnings": ["IFNET_INTVLAN_LINK_UPDOWN","OSPF_OSPF_NBR_CHG"],
     "satisfy":["warn1.NE.intVlan==warn2.parameters.intVlan "],
@@ -189,5 +189,36 @@
     "derived": ["warn2.NE= warn1.NE"],
     "timeRange": 120,
     "times": 3
+  },
+  {
+    "rule_id":14,
+    "rule_name":"IFNET_PORT_LINK_UPDOWN -> LAGG_LAGG_INACTIVE_OTHER",
+    "description": "",
+    "correlation_mode":"fatherSon",
+    "is_enable":"true",
+    "create_by": "system",
+    "create_time": "2020-10-13 14:28:06",
+    "fatherWarn": "IFNET_PORT_LINK_UPDOWN",
+    "sonWarn": ["LAGG_LAGG_INACTIVE_OTHER"],
+    "allWarnings": ["IFNET_PORT_LINK_UPDOWN","LAGG_LAGG_INACTIVE_OTHER"],
+    "satisfy":["warn1.NE.port==warn2.parameters.memberPort",
+      "warn1.parameters.status==down",
+      "warn2.parameters.status==inactive"],
+    "timeRange": 10
+  },
+  {
+    "rule_id":15,
+    "rule_name":"LAGG_LAGG_INACTIVE_OTHER -> DRNI_DRNI_IFEVENT_DR_NOSELECTED",
+    "description": "",
+    "correlation_mode":"fatherSon",
+    "is_enable":"true",
+    "create_by": "system",
+    "create_time": "2020-10-13 14:28:06",
+    "fatherWarn": "LAGG_LAGG_INACTIVE_OTHER",
+    "sonWarn": ["DRNI_DRNI_IFEVENT_DR_NOSELECTED"],
+    "allWarnings": ["LAGG_LAGG_INACTIVE_OTHER","DRNI_DRNI_IFEVENT_DR_NOSELECTED"],
+    "satisfy":["warn1.NE.aggregationGroup==warn2.NE.localDrInterface",
+      "warn1.parameters.status==warn2.parameters.status"],
+    "timeRange": 4
   }
 ]
