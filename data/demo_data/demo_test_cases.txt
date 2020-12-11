@@ -1,0 +1,176 @@
+# test1
+
+Jun 17 10:55:56 80.0.0.13 Jun 17 10:55:56 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.
+Jun 17 10:55:56 80.0.0.13 Jun 17 10:55:56 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.
+Jun 17 10:55:57 80.0.0.13 Jun 17 10:55:57 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.
+Jun 17 10:55:57 80.0.0.13 Jun 17 10:55:57 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.
+Jun 17 10:55:57 80.0.0.13 Jun 17 10:55:57 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.
+Jun 17 10:55:58 80.0.0.13 Jun 17 10:55:58 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.
+Jun 17 10:55:58 80.0.0.13 Jun 17 10:55:58 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1 changed to down.
+Jun 17 10:56:14 80.0.0.13 Jun 17 10:56:14 2020 16X-B %%10SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=80.0.0.1-User=**; Command is sy
+Jun 17 10:56:14 80.0.0.13 Jun 17 10:56:14 2020 16X-B %%10SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=80.0.0.1-User=**; Command is int ten 5/2/2
+Jun 17 10:56:14 80.0.0.13 Jun 17 10:56:14 2020 16X-B %%10SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=80.0.0.1-User=**; Command is shutdown
+Jun 17 10:56:15 80.0.0.13 Jun 17 10:56:15 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.1 changed to down.
+Jun 17 10:56:15 80.0.0.13 Jun 17 10:56:15 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.2 changed to down.
+Jun 17 10:56:15 80.0.0.13 Jun 17 10:56:15 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.3 changed to down.
+Jun 17 10:56:15 80.0.0.13 Jun 17 10:56:15 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2 changed to down.
+
+# test2
+
+Jun 17 10:57:18 80.0.0.13 Jun 17 10:57:18 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1 changed to down.
+Jun 17 10:57:16 80.0.0.13 Jun 17 10:57:16 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.
+Jun 17 10:57:18 80.0.0.13 Jun 17 10:57:18 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.
+Jun 17 10:57:20 80.0.0.13 Jun 17 10:57:20 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.
+Jun 17 10:57:25 80.0.0.13 Jun 17 10:57:25 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.
+Jun 17 10:57:27 80.0.0.13 Jun 17 10:57:27 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.
+Jun 17 10:57:29 80.0.0.13 Jun 17 10:57:29 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.
+
+# test3
+
+Jun 17 10:58:16 80.0.0.13 Jun 17 10:58:16 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.
+Jun 17 10:58:18 80.0.0.13 Jun 17 10:58:18 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.
+Jun 17 10:58:20 80.0.0.13 Jun 17 10:58:20 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.
+Jun 17 10:58:22 80.0.0.13 Jun 17 10:58:22 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.
+Jun 17 10:58:24 80.0.0.13 Jun 17 10:58:24 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.
+Jun 17 10:58:26 80.0.0.13 Jun 17 10:58:26 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.
+
+# test4
+
+Jun 17 10:59:10 80.0.0.13 Jun 17 10:59:10 2020 16X-B %%10IFNET/4/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.1 changed to down.
+Jun 17 10:59:10 80.0.0.13 Jun 17 10:59:10 2020 16X-B %%10IFNET/4/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.2 changed to down.
+Jun 17 10:59:18 80.0.0.13 Jun 17 10:59:18 2020 16X-B %%10IFNET/4/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.3 changed to down.
+Jun 17 10:59:22 80.0.0.13 Jun 17 10:59:22 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.
+Jun 17 10:59:24 80.0.0.13 Jun 17 10:59:24 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.
+Jun 17 10:59:24 80.0.0.13 Jun 17 10:59:24 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.
+Jun 17 10:59:24 80.0.0.13 Jun 17 10:59:24 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.
+Jun 17 10:59:24 80.0.0.13 Jun 17 10:59:24 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.
+Jun 17 10:59:26 80.0.0.13 Jun 17 10:59:26 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.
+Jun 17 10:59:30 80.0.0.13 Jun 17 10:59:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1 changed to down.
+
+# test5
+
+Jun 17 11:00:16 77.1.1.4 Jun 17 11:00:16 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:00:16 77.1.1.4 Jun 17 11:00:16 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:00:26 77.1.1.4 Jun 17 11:00:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:00:26 77.1.1.4 Jun 17 11:00:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:00:36 77.1.1.4 Jun 17 11:00:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:00:36 77.1.1.4 Jun 17 11:00:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:00:46 77.1.1.4 Jun 17 11:00:46 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:00:46 77.1.1.4 Jun 17 11:00:46 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+
+# test6
+
+Jun 17 11:01:16 77.1.1.4 Jun 17 11:01:16 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:01:16 77.1.1.4 Jun 17 11:01:16 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:01:46 77.1.1.4 Jun 17 11:01:46 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:01:46 77.1.1.4 Jun 17 11:01:46 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+
+# test7
+
+Jun 17 11:02:26 77.1.1.4 Jun 17 11:02:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:02:26 77.1.1.4 Jun 17 11:02:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:02:36 77.1.1.4 Jun 17 11:02:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:02:36 77.1.1.4 Jun 17 11:02:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+
+# test8
+
+Jun 17 11:03:56 77.1.1.4 Jun 17 11:03:56 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:03:56 77.1.1.4 Jun 17 11:03:56 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to down.
+Jun 17 11:03:56 77.1.1.4 Jun 17 11:03:56 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:03:56 77.1.1.4 Jun 17 11:03:56 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to up.
+Jun 17 11:04:36 77.1.1.4 Jun 17 11:04:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:04:36 77.1.1.4 Jun 17 11:04:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to down.
+Jun 17 11:04:36 77.1.1.4 Jun 17 11:04:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:04:36 77.1.1.4 Jun 17 11:04:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to up.
+
+# test9
+
+Jun 17 11:05:06 77.1.1.4 Jun 17 11:05:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:05:06 77.1.1.4 Jun 17 11:05:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to down.
+Jun 17 11:05:06 77.1.1.4 Jun 17 11:05:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:05:06 77.1.1.4 Jun 17 11:05:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to up.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to down.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to up.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to down.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to up.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to down.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to up.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to down.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:06:36 77.1.1.4 Jun 17 11:06:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel5 changed to up.
+
+# test10
+
+Jun 17 11:07:06 77.1.1.4 Jun 17 11:07:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:07:06 77.1.1.4 Jun 17 11:07:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:08:36 77.1.1.4 Jun 17 11:08:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:08:36 77.1.1.4 Jun 17 11:08:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:08:36 77.1.1.4 Jun 17 11:08:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:08:36 77.1.1.4 Jun 17 11:08:36 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+
+# test11
+
+Jun 17 11:09:06 77.1.1.4 Jun 17 11:09:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:09:06 77.1.1.4 Jun 17 11:09:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:09:28 77.1.1.4 Jun 17 11:09:28 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:09:28 77.1.1.4 Jun 17 11:09:28 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:10:26 77.1.1.4 Jun 17 11:10:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:10:26 77.1.1.4 Jun 17 11:10:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:10:26 77.1.1.4 Jun 17 11:10:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:10:26 77.1.1.4 Jun 17 11:10:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+
+# test12
+
+Jun 17 11:11:06 77.1.1.4 Jun 17 11:11:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:11:06 77.1.1.4 Jun 17 11:11:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:11:28 77.1.1.4 Jun 17 11:11:28 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:11:28 77.1.1.4 Jun 17 11:11:28 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:12:26 77.1.1.4 Jun 17 11:12:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:12:26 77.1.1.4 Jun 17 11:12:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+
+# test13
+Jun 17 11:13:16 192.28.200.201 Jun 17 11:13:16 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2234 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.
+Jun 17 11:14:26 192.28.200.201 Jun 17 11:14:26 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.
+Jun 17 11:15:01 192.28.200.201 Jun 17 11:15:01 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2231 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.
+
+# test14
+Jun 17 11:16:06 77.1.1.4 Jun 17 11:16:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:16:26 77.1.1.4 Jun 17 11:16:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 17 11:16:28 77.1.1.4 Jun 17 11:16:28 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 17 11:16:28 77.1.1.4 Jun 17 11:16:28 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+
+# test15
+
+Jun 17 11:17:28 77.1.1.41 Jun 17 11:17:28 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: DOWN->INIT, Diag: 0 (No Diagnostic)
+Jun 17 11:17:28 77.1.1.41 Jun 17 11:17:28 2020 7506X-G  %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: UP->DOWN, Diag: 3 (No Diagnostic)
+Jun 17 11:17:28 77.1.1.41 Jun 17 11:17:28 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: INIT->UP, Diag: 0 (No Diagnostic)
+
+# test16
+
+Jun 17 11:18:28 77.1.1.41 Jun 17 11:18:28 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: DOWN->INIT, Diag: 0 (No Diagnostic)
+Jun 17 11:18:28 77.1.1.41 Jun 17 11:18:28 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: INIT->UP, Diag: 0 (No Diagnostic)
+Jun 17 11:18:28 77.1.1.41 Jun 17 11:18:28 2020 7506X-G  %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: UP->DOWN, Diag: 3 (No Diagnostic)
+
+# test17
+
+Jun 17 11:19:28 77.1.1.41 Jun 17 11:19:28 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: DOWN->INIT, Diag: 0 (No Diagnostic)
+Jun 17 11:19:28 77.1.1.41 Jun 17 11:19:28 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: INIT->UP, Diag: 0 (No Diagnostic)
+Jun 17 11:19:28 77.1.1.41 Jun 17 11:19:28 2020 7506X-G  %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: UP->DOWN, Diag: 3 (No Diagnostic)
+Jun 17 11:19:58 77.1.1.41 Jun 17 11:19:58 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: DOWN->INIT, Diag: 0 (No Diagnostic)
+Jun 17 11:19:58 77.1.1.41 Jun 17 11:19:58 2020 7506X-G  %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: UP->DOWN, Diag: 3 (No Diagnostic)
+
+# test18
+
+Jun 17 11:20:28 77.1.1.41 Jun 17 11:20:28 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: INIT->UP, Diag: 0 (No Diagnostic)
+Jun 17 11:20:28 77.1.1.41 Jun 17 11:20:28 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: DOWN->INIT, Diag: 0 (No Diagnostic)
+Jun 17 11:20:38 77.1.1.41 Jun 17 11:20:38 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: DOWN->INIT, Diag: 0 (No Diagnostic)
+Jun 17 11:20:58 77.1.1.41 Jun 17 11:20:58 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: INIT->UP, Diag: 0 (No Diagnostic)
+Jun 17 11:20:58 77.1.1.41 Jun 17 11:20:58 2020 7506X-G  %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: UP->DOWN, Diag: 3 (No Diagnostic)
+

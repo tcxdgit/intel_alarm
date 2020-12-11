@@ -17,8 +17,10 @@ def get_warn_role(rules):
 
         primary_warn = rule['upstreamWarn']
         secondary_warn = rule['downstreamWarn']
-
         rule_id_list.append(rule_id)
+        # if primary_warn == secondary_warn[0]:
+        #     print(rule['rule_name'])
+        #     continue
 
         if primary_warn not in warn_role:
             warn_role[primary_warn] = [(rule_id, 'primary')]
@@ -81,13 +83,18 @@ def sort_rule(rules):
     return sorted_rules, rule_adjust
 
 
-def get_rules(rule_file='data/new_rules.json'):
+def get_rules(rule_file='data/rules.json'):
     with open(rule_file, encoding="utf-8") as f_rule:
         rules = json.load(f_rule)
 
-    new_rules, _ = sort_rule(rules)
+    new_rules, rule_adjust = sort_rule(rules)
 
-    _, rule_adjust = sort_rule(new_rules)
+    for i in range(5):
+        new_rules, rule_adjust = sort_rule(new_rules)
+        # print('------------{} sort----------'.format(i))
+        # print(rule_adjust)
+        # for r in new_rules:
+        #     print("{} : {}".format(r["rule_id"], r["rule_name"]))
 
     if rule_adjust:
         print('Rules {} have problem!!!'.format(rule_adjust))
@@ -99,6 +106,6 @@ def get_rules(rule_file='data/new_rules.json'):
 
 if __name__ == "__main__":
     result = get_rules()
-    print("---------------------")
-    for r in result:
-        print("{} : {}".format(r["rule_id"], r["rule_name"]))
+    # print("---------------------")
+    # for r in result:
+    #     print("{} : {}".format(r["rule_id"], r["rule_name"]))

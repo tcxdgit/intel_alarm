@@ -1,0 +1,140 @@
+# demo1
+
+Jun 16 22:15:56 80.0.0.13 Jun 16 22:15:31 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down.
+Jun 16 22:15:56 80.0.0.13 Jun 16 22:15:31 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.2 changed to down.
+Jun 16 22:16:07 80.0.0.13 Jun 16 22:15:34 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down.
+Jun 16 22:16:07 80.0.0.13 Jun 16 22:15:34 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.69 changed to down.
+Jun 16 22:16:07 80.0.0.13 Jun 16 22:15:34 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.164 changed to down.
+Jun 16 22:16:16 80.0.0.13 Jun 16 22:15:36 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.3928 changed to down.
+Jun 16 22:16:17 80.0.0.13 Jun 16 22:15:36 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1 changed to down.
+Jun 16 22:17:14 80.0.0.13 Jun 16 22:17:20 2020 16X-B %%10SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=80.0.0.1-User=**; Command is sy
+Jun 16 22:17:14 80.0.0.13 Jun 16 22:17:20 2020 16X-B %%10SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=80.0.0.1-User=**; Command is int ten 5/2/2
+Jun 16 22:17:14 80.0.0.13 Jun 16 22:17:20 2020 16X-B %%10SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=80.0.0.1-User=**; Command is shutdown
+Jun 16 22:17:15 80.0.0.13 Jun 16 22:17:21 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.1 changed to down.
+Jun 16 22:17:15 80.0.0.13 Jun 16 22:17:21 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.2 changed to down.
+Jun 16 22:17:15 80.0.0.13 Jun 16 22:17:21 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.3 changed to down.
+
+# demo2
+
+Jun 16 22:17:45 212.1.1.210 Jun 16 22:17:45 2020 75exs_leaf %%10DEV/3/FAN_ABSENT: -Slot=1; Fan 1 is absent.
+Jun 16 22:17:46 212.1.1.209 Jun 16 22:17:46 2020 75exs_125g_10510x_40_ec %%10DEV/3/FAN_ABSENT: Fan 2 is absent.
+Jun 16 22:17:47 212.1.1.210 Jun 16 22:17:47 2020 75exs_leaf %%10DEV/3/FAN_ABSENT: -Slot=1; Fan 1 is absent.
+Jun 16 22:18:06 212.1.1.209 Jun 16 22:18:06 2020 75exs_125g_10510x_40_ec %%10DEV/3/FAN_ABSENT: Fan 2 is absent.
+Jun 16 22:18:06 212.1.1.210 Jun 16 22:18:06 2020 75exs_leaf %%10DEV/3/FAN_ABSENT: -Slot=1; Fan 1 is absent.
+Jun 16 22:18:25 212.1.1.209 Jun 16 22:18:25 2020 75exs_125g_10510x_40_ec %%10DEV/3/FAN_ABSENT: Fan 2 is absent.
+Jun 16 22:18:25 212.1.1.210 Jun 16 22:18:25 2020 75exs_leaf %%10DEV/3/FAN_ABSENT: -Slot=1; Fan 1 is absent.
+Jun 16 22:18:46 212.1.1.209 Jun 16 22:18:46 2020 75exs_125g_10510x_40_ec %%10DEV/3/FAN_ABSENT: Fan 2 is absent.
+
+# demo3
+
+Jun 16 22:19:26 77.1.1.4 Jun 16 22:19:26 2020 S7503E %%10OPTMOD/4/PHONY_MODULE: -Chassis=1-Slot=2; Ten-GigabitEthernet1/2/0/23: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!
+Jun 16 22:19:34 77.1.1.4 Jun 16 22:19:34 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:19:34 77.1.1.4 Jun 16 22:19:34 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:19:41 77.1.1.4 Jun 16 22:19:41 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 16 22:19:41 77.1.1.4 Jun 16 22:19:41 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to down.
+Jun 16 22:19:41 77.1.1.4 Jun 16 22:19:41 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:19:41 77.1.1.4 Jun 16 22:19:41 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:19:44 77.1.1.4 Jun 16 22:19:44 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 16 22:19:44 77.1.1.4 Jun 16 22:19:44 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:19:44 77.1.1.4 Jun 16 22:19:44 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:19:45 77.1.1.4 Jun 16 22:19:45 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:19:45 77.1.1.4 Jun 16 22:19:45 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:19:49 77.1.1.4 Jun 16 22:19:49 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:19:49 77.1.1.4 Jun 16 22:19:49 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:19:51 77.1.1.4 Jun 16 22:19:51 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:19:51 77.1.1.4 Jun 16 22:19:51 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:19:54 77.1.1.4 Jun 16 22:19:54 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:19:54 77.1.1.4 Jun 16 22:19:54 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:19:57 77.1.1.4 Jun 16 22:19:57 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:19:57 77.1.1.4 Jun 16 22:19:57 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:19:59 77.1.1.4 Jun 16 22:19:59 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:19:59 77.1.1.4 Jun 16 22:19:59 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:20:01 77.1.1.4 Jun 16 22:20:01 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:20:01 77.1.1.4 Jun 16 22:20:01 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:20:03 77.1.1.4 Jun 16 22:20:03 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:20:03 77.1.1.4 Jun 16 22:20:03 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:20:06 77.1.1.4 Jun 16 22:20:06 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:20:06 77.1.1.4 Jun 16 22:20:06 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:20:08 77.1.1.4 Jun 16 22:20:08 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+Jun 16 22:20:18 77.1.1.4 Jun 16 22:20:18 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up.
+Jun 16 22:20:26 77.1.1.4 Jun 16 22:20:26 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down.
+Jun 16 22:20:30 77.1.1.4 Jun 16 22:20:30 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up.
+
+# demo4
+
+Jun 16 22:20:34 177.17.17.7 Jun 16 22:20:34 2020 S125G2 %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface HundredGigE1/4/0/1 changed to down.
+Jun 16 22:20:34 177.17.17.7 Jun 16 22:20:34 2020 S125G2 %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Vlan-interface11 changed to down.
+Jun 16 22:20:34 177.17.17.7 Jun 16 22:20:34 2020 S125G2 %%10OSPF/6/OSPF_LAST_NBR_DOWN: OSPF 1 Last neighbor down event: Router ID: 1.2.3.4 Local address: 11.1.1.3 Remote address: 11.1.1.1 Reason: Ospf_ifachange.
+Jun 16 22:20:34 177.17.17.7 Jun 16 22:20:34 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG_REASON: OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215
+Jun 16 22:20:34 177.17.17.7 Jun 16 22:20:34 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG: OSPF 1 Neighbor 11.1.1.1(Vlan-interface11) changed from FULL to DOWN.
+Jun 16 22:20:34 177.17.17.7 Jun 16 22:20:34 2020 S125G2 %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Vlan-interface11 changed to down.
+
+# demo5
+
+Jun 16 22:21:43 192.28.200.201 Jun 16 22:21:43 2020 12508 W %%10DEV/2/BOARD_STATE_FAULT: -MDC=1; Board state changed to Fault on slot 2, type is LSXM1CGQ36TD1.
+Jun 16 22:21:43 192.28.200.201 Jun 16 22:21:43 2020 12508 W %%10IFNET/3/PHY_UPDOWN: -MDC=1; Physical state on the interface Vlan-interface4094 changed to down.
+Jun 16 22:21:43 192.28.200.201 Jun 16 22:21:43 2020 12508 W %%10OSPF/5/OSPF_NBR_CHG: -MDC=1; OSPF 1 Neighbor 222.1.1.2(Vlan-interface4094) changed from FULL to DOWN.
+Jun 16 22:21:43 192.28.200.201 Jun 16 22:21:43 2020 12508 W %%10IFNET/5/LINK_UPDOWN: -MDC=1; Line protocol state on the interface Vlan-interface4094 changed to down.
+Jun 16 22:21:43 192.28.200.201 Jun 16 22:21:43 2020 12508 W %%10OSPFV3/5/OSPFv3_NBR_CHG: -MDC=1; OSPFv3 1 Neighbor 2.2.2.2(Vlan-interface4094) received KillNbr and its state from FULL to DOWN.
+Jun 16 22:21:43 192.28.200.201 Jun 16 22:21:43 2020 12508 W %%10ISIS/5/ISIS_NBR_CHG: -MDC=1; IS-IS 1, Level-1 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean.
+Jun 16 22:21:43 192.28.200.201 Jun 16 22:21:43 2020 12508 W %%10ISIS/5/ISIS_NBR_CHG: -MDC=1; IS-IS 1, Level-2 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean.
+Jun 16 22:21:47 192.28.200.201 Jun 16 22:21:47 2020 12508 W %%10DEV/2/FAN_FAILED: -MDC=1; Fan 1 failed.
+Jun 16 22:21:52 192.28.200.201 Jun 16 22:21:52 2020 12508 W %%10DEV/5/BOARD_REBOOT: -MDC=1; Board is rebooting on slot 2.
+
+# demo6
+
+Jun 16 22:22:12 192.28.200.201 Jun 16 22:22:12 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2234 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.
+Jun 16 22:22:12 192.28.200.201 Jun 16 22:22:12 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-224f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.
+Jun 16 22:22:12 192.28.200.201 Jun 16 22:22:12 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222b in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.
+Jun 16 22:22:52 192.28.200.201 Jun 16 22:22:52 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.
+Jun 16 22:22:52 192.28.200.201 Jun 16 22:22:52 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2231 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times.
+Jun 16 22:23:52 192.28.200.201 Jun 16 22:23:52 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2234 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 8 times.
+Jun 16 22:23:52 192.28.200.201 Jun 16 22:23:52 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222a in VLAN 2048 has moved from port XGE4/0/5:2 to port XGE4/0/5:1 for 7 times.
+Jun 16 22:23:52 192.28.200.201 Jun 16 22:23:52 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-223f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 8 times.
+Jun 16 22:24:02 192.28.200.201 Jun 16 22:24:02 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2249 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 7 times.
+Jun 16 22:24:02 192.28.200.201 Jun 16 22:24:02 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-224a in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 7 times.
+Jun 16 22:24:02 192.28.200.201 Jun 16 22:24:02 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2250 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 7 times.
+
+# demo7
+
+Jun 17 10:42:17 100.11.1.35 Jun 17 10:42:17 2020 S7503X %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet3/0/26 changed to down.
+Jun 17 10:42:17 100.11.1.35 Jun 17 10:42:17 2020 S7503X %%10LAGG/6/LAGG_INACTIVE_OTHER: Member port XGE3/0/26 of aggregation group BAGG40 changed to the inactive state, because other reason.
+Jun 17 10:42:17 100.11.1.35 Jun 17 10:42:17 2020 S7503X %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet3/0/26 changed to down.
+Jun 17 10:42:17 100.11.1.35 Jun 17 10:42:17 2020 S7503X %%10DRNI/6/DRNI_IFEVENT_DR_NOSELECTED: Local DR interface Bridge-Aggregation40 in DR group 40 does not have Selected member ports because the aggregate interface went down. Please check the aggregate link status.
+
+# demo8
+
+Jun 17 10:42:48 77.1.1.41 Jun 17 10:42:48 2020 7506X-G %%10DEV/5/BOARD_REBOOT: Board is rebooting on slot 3.
+Jun 17 10:42:48 77.1.1.41 Jun 17 10:42:48 2020 7506X-G %%10HA/5/HA_STANDBY_TO_MASTER: Standby board in slot 4 changed to master.
+Jun 17 10:43:18 77.1.1.41 Jun 17 10:43:18 2020 7506X-G %%10DEV/2/BOARD_STATE_FAULT: Board state changed to Fault on slot 3, type is LSCM1MPUS06A0.
+
+# demo9
+
+Jun 17 10:43:30 77.1.1.41 Jun 17 10:43:30 2020 7506X-G  %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: UP->DOWN, Diag: 3 (No Diagnostic)
+Jun 17 10:43:39 77.1.1.41 Jun 17 10:43:39 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: DOWN->INIT, Diag: 0 (No Diagnostic)
+Jun 17 10:43:39 77.1.1.41 Jun 17 10:43:39 2020 7506X-G %%10BFD/5/BFD_CHANGE_FSM: Sess[21.2.1.1/21.2.1.2, LD/RD:4128/4119, Interface:Vlan202, SessType:Ctrl, LinkType:INET], Ver:1, Sta: INIT->UP, Diag: 0 (No Diagnostic)
+
+# demo10
+
+Jun 17 10:44:23 77.1.1.41 Jun 17 10:44:23 2020 7506X-G %%10SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=77.1.1.253-User=**; Command is inter ra g1/0/17 te2/0/13 te2/0/36 te6/0/13 te6/0/35
+Jun 17 10:44:24 77.1.1.41 Jun 17 10:44:24 2020 7506X-G %%10SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=77.1.1.253-User=**; Command is shutdown
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10IFNET/3/PHY_UPDOWN: Physical state on the interface GigabitEthernet1/0/17 changed to down.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface GigabitEthernet1/0/17 changed to down.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Vlan-interface200 changed to down.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Vlan-interface200 changed to down.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10PIM/5/PIM_NBR_DOWN: Neighbor 21.0.1.2(Vlan-interface200) is down.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10ISIS/5/ISIS_NBR_CHG: IS-IS 1, Level-2 adjacency 0000.0000.0003 (Vlan-interface200), state changed to DOWN, Reason: circuit data clean.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10ISIS/5/ISIS_NBR_CHG: IS-IS 5, Level-2 adjacency 0000.0000.0003 (Vlan-interface200), state changed to DOWN, Reason: circuit data clean.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10ISIS/5/ISIS_NBR_CHG: IS-IS 6, Level-2 adjacency 0000.0000.0003 (Vlan-interface200), state changed to DOWN, Reason: circuit data clean.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10ISIS/5/ISIS_NBR_CHG: IS-IS 7, Level-2 adjacency 0000.0000.0003 (Vlan-interface200), state changed to DOWN, Reason: circuit data clean.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10ISIS/5/ISIS_NBR_CHG: IS-IS 10, Level-2 adjacency 0000.0000.0003 (Vlan-interface200), state changed to DOWN, Reason: circuit data clean.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10OSPFV3/6/OSPFv3_LAST_NBR_DOWN: OSPFv3 1 Last neighbor down event: Router ID: 3.1.1.1  Local interface ID: 3492  Remote interface ID: 658  Reason: Ospfv3 ifachange.
+Jun 17 10:44:25 77.1.1.41 Jun 17 10:44:25 2020 7506X-G %%10OSPFV3/5/OSPFv3_NBR_CHG: OSPFv3 1 Neighbor 3.1.1.1(Vlan-interface200) received KillNbr and its state from INIT to DOWN.
+
+# demo11
+
+Jun 17 10:45:01 77.1.1.43 Jun 17 10:45:01 2020 5560X_2 %%10LLDP/6/LLDP_DELETE_NEIGHBOR: -Slot=1; Nearest bridge agent neighbor deleted on port Ten-GigabitEthernet1/1/1 (IfIndex 53), neighbor's chassis ID is 0000-fc00-eab1, port ID is Ten-GigabitEthernet6/0/13.
+Jun 17 10:45:02 77.1.1.43 Jun 17 10:45:02 2020 5560X_2 %%10STP/6/STP_NOTIFIED_TC: Instance 0's port Bridge-Aggregation3 was notified a topology change.
+Jun 17 10:45:02 77.1.1.43 Jun 17 10:45:02 2020 5560X_2 %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/1/1 changed to down.
+Jun 17 10:45:02 77.1.1.43 Jun 17 10:45:02 2020 5560X_2 %%10LAGG/6/LAGG_INACTIVE_PHYSTATE: Member port XGE1/1/1 of aggregation group BAGG3 changed to the inactive state, because the physical or line protocol state of the port was down.
+Jun 17 10:45:02 77.1.1.43 Jun 17 10:45:02 2020 5560X_2 %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/1/1 changed to down.

@@ -1,0 +1,89 @@
+20201104
+Bug修改：衍生告警A+B->C，如果AB告警类型一致时，若匹配上应从pool[0]和pool[1]中删掉两个告警，所以在原先基础上加了个判断，否则会生成双倍C影响频次告警的匹配。
+pool[0].remove(typeA)
+pool[1].remove(typeB)
+if typeA[2] == typeB[2]: # if same warn type, delete both warns from both pools
+    pool[0].remove(typeB)
+    pool[1].remove(typeA)
+
+
+20201104
+Rule的Satisfy部分：在data/new_rules.json中
+父子告警和频次告警：
+"satisfy": "warn_list[0]['NE']==warn_list[1]['NE'] and warn_list[0]['parameters']['status']==warn_list[1]['parameters']['status']"
+warn_list[0]和warn_list[1]是由于utils.check_rules函数中命名如此
+utils中修改为：if not eval(rule.get('satisfy')): return False （双重否定是为了经过所有判断后统一在最后return True）
+
+
+20201104
+Rule的Satisfy部分：在data/new_rules.json中
+频次告警：
+单条件频次："satisfy": "proposal_warn['NE']"
+多条件频次："satisfy": "tuple([proposal_warn['NE'], proposal_warn['parameters']['port1'], proposal_warn['parameters']['port2']])"
+Proposal_warn是由于WarningMatch.frequency_match函数中命名如此
+WarningMatch.frequency_match中cur_satisfy = eval(rule.get('satisfy'))，作为频次的dict key，划分网元等信息
+
+
+20201104
+Utils部分：修改了一下create_new_warning部分，删除了decode函数，避免频繁解析
+Rules的derived部分修改：在data/new_rules.json中
+改为可运行的语句如"derived": ["new_warning['NE']=warn_list[0]['NE']", "new_warning['dictNE']=warn_list[0]['dictNE']"]
+对应create_new_warning部分：
+derived = rule.get('derived')
+for de in derived:
+    exec(de)
+
+
+20201104
+New_warning_modules.py部分修改：
+Desc, abstract, influence部分所带的${}部分改为可直接替换的形式："desc":"Many MAC addresses has moved from port ${new_warning['parameters']['port1']} to port ${new_warning['parameters']['port2']}."
+对应create_new_warning部分：
+for i in ['desc', 'abstract', 'influence']:
+    sub_desc = new_warning.get(i, None)
+    if sub_desc is not None:
+        items_to_fill = re.findall(r"(?<=\$\{).*?(?=\})", sub_desc)
+        for j, item in enumerate(items_to_fill):
+            new_warning[i] = new_warning[i].replace('${'+item+'}', eval(item))
+
+
+20201105
+统一rules中字段名称：在data/new_rules.json中
+父告警-upstreamWarn，子告警-downstreamWarn
+"upstreamWarn": "OSPF_OSPF_NBR_CHG",
+"downstreamWarn": ["OSPF_OSPF_LAST_NBR_DOWN"]
+更改sort_rule.py, WarningMatch.py, utils.py对应位置，减少对correlation_mode的判断
+
+
+20201106
+统一rules中satisfy和derived字段中warning的命名方式，使其能跟根因定位通用
+satisfy：warn_A -> warn1, warn_B -> warn2
+derive
+在utils.py里新增check_satisfy和update_new_warning函数
+
+20201107
+new_rules.json中"rule_id":4："upstreamWarn": "IFNET_INTVLANLINK_UPDOWN"改为"upstreamWarn": "IFNET_INTVLAN_LINK_UPDOWN"
+但是sort_rules出现报错：Rules [(8, 9), (8, 10)] have problem!!!
+已改正
+
+20201107
+新增几条rules在new_rules.json中
+
+20201110
+将logParser中不同告警拆成不同函数，提升代码可读性和解析效率
+
+20201110
+新增demo8-11，logParser_new, new_warning_modules, new_rules.json
+
+20201112
+添加demo12
+过滤未解析的告警
+添加一些KPI相关解析
+
+20201124
+添加demo至21，21中包含14个场景。添加相应解析+规则
+
+20201209
+动态定时更新logParser, rules.json和new_warning_modules
+summary添加：
+original warning amount: 4
+level of the most severe original warning: 4

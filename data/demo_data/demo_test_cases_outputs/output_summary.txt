@@ -1,0 +1,187 @@
+C:\ProgramData\Anaconda3\python.exe D:/PycharmProjects/Intel_alarm/main_multiprocess.py
+124
+From 2020-06-17 10:55:00 to 2020-06-17 10:55:59, device 80.0.0.13 encoutered 
+the following events:
+    1. Ten-GigabitEthernet11/2/1 link down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 10:56:00 to 2020-06-17 10:56:59, device 80.0.0.13 encoutered 
+the following events:
+    1. Ten-GigabitEthernet5/2/2 physical down
+    2. Ten-GigabitEthernet5/2/2.2 physical down
+    3. Ten-GigabitEthernet5/2/2.1 physical down
+    4. Ten-GigabitEthernet5/2/2.3 physical down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 10:57:00 to 2020-06-17 10:57:59, device 80.0.0.13 encoutered 
+the following events:
+    1. Ten-GigabitEthernet11/2/1 link down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 10:58:00 to 2020-06-17 10:58:59, device 80.0.0.13 encoutered 
+the following events:
+    1. Ten-GigabitEthernet11/2/1.2 physical down
+    2. Ten-GigabitEthernet11/2/1.1 physical down
+    3. Ten-GigabitEthernet11/2/1.3950 physical down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 10:59:00 to 2020-06-17 10:59:59, device 80.0.0.13 encoutered 
+the following events:
+    1. Ten-GigabitEthernet5/2/2.2 physical down
+    2. Ten-GigabitEthernet5/2/2.1 physical down
+    3. Ten-GigabitEthernet5/2/2.3 physical down
+    4. Ten-GigabitEthernet11/2/1 link down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:00:00 to 2020-06-17 11:00:59, device 77.1.1.4 encoutered 
+the following events:
+    1. Physical state on the interface Tunnel4 Flapping
+which might have impacts on
+    1. Interval interrupt on interface Tunnel4
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:01:00 to 2020-06-17 11:01:59, device 77.1.1.4 encoutered 
+the following events:
+    1. interface Tunnel4 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:02:00 to 2020-06-17 11:02:59, device 77.1.1.4 encoutered 
+the following events:
+    1. Physical state on the interface Tunnel4 Flapping
+which might have impacts on
+    1. Interval interrupt on interface Tunnel4
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:03:00 to 2020-06-17 11:03:59, device 77.1.1.4 encoutered 
+the following events:
+    1. interface Tunnel5 occurs Down and UP
+    2. interface Tunnel4 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:04:00 to 2020-06-17 11:04:59, device 77.1.1.4 encoutered 
+the following events:
+    1. interface Tunnel5 occurs Down and UP
+    2. interface Tunnel4 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:05:00 to 2020-06-17 11:05:59, device 77.1.1.4 encoutered 
+the following events:
+    1. interface Tunnel5 occurs Down and UP
+    2. interface Tunnel4 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:06:00 to 2020-06-17 11:06:59, device 77.1.1.4 encoutered 
+the following events:
+    1. Physical state on the interface Tunnel5 Flapping
+    2. Physical state on the interface Tunnel4 Flapping
+which might have impacts on
+    1. Interval interrupt on interface Tunnel4
+    2. Interval interrupt on interface Tunnel5
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:07:00 to 2020-06-17 11:07:59, device 77.1.1.4 encoutered 
+the following events:
+    1. interface Tunnel4 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:08:00 to 2020-06-17 11:08:59, device 77.1.1.4 encoutered 
+the following events:
+    1. interface Tunnel4 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:09:00 to 2020-06-17 11:09:59, device 77.1.1.4 encoutered 
+the following events:
+    1. Physical state on the interface Tunnel4 Flapping
+which might have impacts on
+    1. Interval interrupt on interface Tunnel4
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:10:00 to 2020-06-17 11:10:59, device 77.1.1.4 encoutered 
+the following events:
+    1. interface Tunnel4 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:11:00 to 2020-06-17 11:11:59, device 77.1.1.4 encoutered 
+the following events:
+    1. interface Tunnel4 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:12:00 to 2020-06-17 11:12:59, device 77.1.1.4 encoutered 
+the following events:
+    1. interface Tunnel4 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:13:00 to 2020-06-17 11:13:59, device 192.28.200.201 encoutered 
+the following events:
+    1. MAC address 0000-0022-2234 move
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:14:00 to 2020-06-17 11:14:59, device 192.28.200.201 encoutered 
+the following events:
+    1. MAC address 0000-0022-222f move
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:15:00 to 2020-06-17 11:15:59, device 192.28.200.201 encoutered 
+the following events:
+    1. Many MAC addresses has moved from port XGE4/0/5:1 to port XGE4/0/5:2
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:16:00 to 2020-06-17 11:16:59, device 77.1.1.4 encoutered 
+the following events:
+    1. interface Tunnel4 changed to physical up
+    2. interface Tunnel4 changed to physical down
+    3. interface Tunnel4 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:17:00 to 2020-06-17 11:17:59, device 77.1.1.41 encoutered 
+the following events:
+    1. BFD Session[21.2.1.1/21.2.1.2] change from Down to UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:18:00 to 2020-06-17 11:18:59, device 77.1.1.41 encoutered 
+the following events:
+    1. BFD Session[21.2.1.1/21.2.1.2] change from Down to UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:19:00 to 2020-06-17 11:19:59, device 77.1.1.41 encoutered 
+the following events:
+    1. BFD Session[21.2.1.1/21.2.1.2] change from UP to DOWN
+    2. BFD Session[21.2.1.1/21.2.1.2] change from DOWN to INIT
+    3. BFD Session[21.2.1.1/21.2.1.2] change from Down to UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:20:00 to 2020-06-17 11:20:59, device 77.1.1.41 encoutered 
+the following events:
+    1. BFD Session[21.2.1.1/21.2.1.2] change from UP to DOWN
+    2. BFD Session[21.2.1.1/21.2.1.2] change from INIT to UP
+    3. BFD Session[21.2.1.1/21.2.1.2] change from Down to UP
+++++++++++++++++++++++++++++++++++++
+
+
+
+Process finished with exit code -1

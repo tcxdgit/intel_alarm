@@ -1,0 +1,439 @@
+C:\ProgramData\Anaconda3\python.exe D:/PycharmProjects/Intel_alarm/main_multiprocess.py
+387
+From 2020-06-16 22:15:00 to 2020-06-16 22:15:59, device 80.0.0.13 encoutered 
+the following events:
+    1. Ten-GigabitEthernet11/2/1 link down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-16 22:17:00 to 2020-06-16 22:17:59, device 80.0.0.13 encoutered 
+the following events:
+    1. Ten-GigabitEthernet5/2/2.2 physical down
+    2. Ten-GigabitEthernet5/2/2.1 physical down
+    3. Ten-GigabitEthernet5/2/2.3 physical down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-16 22:17:00 to 2020-06-16 22:17:59, device 212.1.1.210 encoutered 
+the following events:
+    1. Fan 1 is absent.
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-16 22:17:00 to 2020-06-16 22:17:59, device 212.1.1.209 encoutered 
+the following events:
+    1. Fan 2 is absent.
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-16 22:19:00 to 2020-06-16 22:19:59, device 77.1.1.4 encoutered 
+the following events:
+    1. transceiver on Ten-GigabitEthernet1/2/0/23 is NOT sold by H3C
+    2. interface Tunnel4 occurs Down and UP
+    3. interface Tunnel4 changed to physical up
+which might have impacts on
+    1. Flow stability on Ten-GigabitEthernet1/2/0/23
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-16 22:20:00 to 2020-06-16 22:20:59, device 77.1.1.4 encoutered 
+the following events:
+    1. Physical state on the interface Tunnel4 Flapping
+    2. interface Tunnel4 changed to physical up
+which might have impacts on
+    1. Interval interrupt on interface Tunnel4
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-16 22:20:00 to 2020-06-16 22:20:59, device 177.17.17.7 encoutered 
+the following events:
+    1. Vlan-interface11 physical down
+    2. HundredGigE1/4/0/1 link down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-16 22:21:00 to 2020-06-16 22:21:59, device 192.28.200.201 encoutered 
+the following events:
+    1. Slot 2 Rebooting
+    2. Fan 1 failed.
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-16 22:22:00 to 2020-06-16 22:22:59, device 192.28.200.201 encoutered 
+the following events:
+    1. Many MAC addresses has moved from port XGE4/0/5:1 to port XGE4/0/5:2
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-16 22:23:00 to 2020-06-16 22:23:59, device 192.28.200.201 encoutered 
+the following events:
+    1. MAC address 0000-0022-2234 move
+    2. MAC address 0000-0022-223f move
+    3. MAC address 0000-0022-222a move
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-16 22:24:00 to 2020-06-16 22:24:59, device 192.28.200.201 encoutered 
+the following events:
+    1. Many MAC addresses has moved from port XGE4/0/5:1 to port XGE4/0/5:2
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 10:42:00 to 2020-06-17 10:42:59, device 100.11.1.35 encoutered 
+the following events:
+    1. Ten-GigabitEthernet3/0/26 physical down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 10:42:00 to 2020-06-17 10:42:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Standby board in slot 4 changed to master
+    2. Slot 3 Rebooting
+which might have impacts on
+    1. Master change
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 10:43:00 to 2020-06-17 10:43:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Slot 3 Fault
+    2. BFD Session[21.2.1.1/21.2.1.2] change from Down to UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 10:44:00 to 2020-06-17 10:44:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Vlan-interface200 physical down
+    2. GigabitEthernet1/0/17 physical down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 10:45:00 to 2020-06-17 10:45:59, device 77.1.1.43 encoutered 
+the following events:
+    1. Ten-GigabitEthernet1/1/1 physical down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:30:00 to 2020-06-17 11:30:59, device 77.1.1.41 encoutered 
+the following events:
+    1. STP state shake on Instance 0's GigabitEthernet3/0/25
+    2. STP state shake on Instance 0's GigabitEthernet3/0/1
+    3. STP state shake on Instance 0's Ten-GigabitEthernet3/0/49
+    4. STP topology change on Instance 0's Ten-GigabitEthernet3/0/49 received an inferior BPDU
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:31:00 to 2020-06-17 11:31:59, device 77.1.1.41 encoutered 
+the following events:
+    1. STP state on Instance 0's Ten-GigabitEthernet3/0/49 Flapping
+    2. STP state shake on Instance 0's GigabitEthernet3/0/1
+    3. STP state shake on Instance 0's GigabitEthernet3/0/25
+    4. STP topology change on Instance 0's Ten-GigabitEthernet3/0/49 received an inferior BPDU
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:32:00 to 2020-06-17 11:32:59, device 77.1.1.41 encoutered 
+the following events:
+    1. DLDP detected a unidirectional link on interface Ten-GigabitEthernet1/0/51
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:33:00 to 2020-06-17 11:33:59, device 77.1.1.41 encoutered 
+the following events:
+    1. DLDP detected a unidirectional link on interface Ten-GigabitEthernet1/0/51
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:34:00 to 2020-06-17 11:34:59, device 77.1.1.41 encoutered 
+the following events:
+    1. port Bridge-Aggregation2 occurs Down and UP
+    2. interface Vlan-interface2 occurs Down and UP
+    3. port GigabitEthernet0/3 occurs Down and UP
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:36:00 to 2020-06-17 11:36:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Duplicate address 3.4.4.3 on interface GigabitEthernet2/0/1, sourced from 38ad-bea0-8a2f
+which might have impacts on
+    1. IP Address conflict
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:42:00 to 2020-06-17 11:42:59, device 77.1.1.41 encoutered 
+the following events:
+    1. IP address 4.3.2.1 conflicted with VRRP virtual IP address on interface Vlan-interface88, sourced from 346b-5b57-6769
+which might have impacts on
+    1. Vrrp IP Address conflict
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:43:00 to 2020-06-17 11:43:59, device 77.1.1.41 encoutered 
+the following events:
+    1. IP address 4.3.2.1 conflicted with VRRP virtual IP address on interface Vlan-interface88, sourced from 346b-5b57-6769
+which might have impacts on
+    1. Vrrp IP Address conflict
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:44:00 to 2020-06-17 11:44:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Ten-GigabitEthernet1/0/50 physical down
+    2. IRF port 1 went down
+which might have impacts on
+    1. IRF port down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:45:00 to 2020-06-17 11:45:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Slot 6 Fault
+    2. Fan 0 failed.
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:46:00 to 2020-06-17 11:46:59, device 77.1.1.41 encoutered 
+the following events:
+    1. slot 6 Normal
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:47:00 to 2020-06-17 11:47:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Max ARP Number reached
+    2. Resource nexthoppool1 used up
+which might have impacts on
+    1. Max ARP Number reached
+    2. Resource nexthoppool1 used up
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:48:00 to 2020-06-17 11:48:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Max ARP Number reached
+    2. CPU usage is in severe alarm state
+which might have impacts on
+    1. Max ARP Number reached
+    2. CPU usage is in severe alarm state
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:49:00 to 2020-06-17 11:49:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Ten-GigabitEthernet4/0/50 physical down
+    2. Resource nexthoppool1 recovery
+    3. Vlan-interface200 physical down
+    4. Max ARP Number reached
+    5. Vlan-interface100 physical down
+    6. Vlan-interface300 physical down
+which might have impacts on
+    1. Max ARP Number reached
+    2. Resource nexthoppool1 recovery
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:50:00 to 2020-06-17 11:50:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Max ARP Number reached
+    2. CPU usage is in severe alarm state
+which might have impacts on
+    1. Max ARP Number reached
+    2. CPU usage is in severe alarm state
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:51:00 to 2020-06-17 11:51:59, device 77.1.1.41 encoutered 
+the following events:
+    1. System Reboot
+which might have impacts on
+    1. System Reboot
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:52:00 to 2020-06-17 11:52:59, device 77.1.1.41 encoutered 
+the following events:
+    1. GigabitEthernet0/1 physical down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:53:00 to 2020-06-17 11:53:59, device 77.1.1.41 encoutered 
+the following events:
+    1. OSPF 1 Neighbor 2.2.1.2(GigabitEthernet2/0/39) init
+    2. OSPF Duplicate router ID 10.10.10.10 on interface GigabitEthernet2/0/39
+    3. OSPF 1 Neighbor 2.2.1.2(GigabitEthernet2/0/39) full
+    4. OSPF 1 Neighbor 2.2.1.2(GigabitEthernet2/0/39) down
+which might have impacts on
+    1. OSPF Duplicate router ID 10.10.10.10
+    2. OSPF neighbor down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:54:00 to 2020-06-17 11:54:59, device 77.1.1.41 encoutered 
+the following events:
+    1. BFD Session[3.3.3.1/3.3.3.2] change from Down to UP
+    2. GigabitEthernet0/5 physical up
+    3. GigabitEthernet0/5 physical down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:55:00 to 2020-06-17 11:55:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Ten-GigabitEthernet1/0/50 physical down
+    2. IRF port 1 went down
+which might have impacts on
+    1. IRF port down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:56:00 to 2020-06-17 11:56:59, device 77.1.1.41 encoutered 
+the following events:
+    1. OSPF Conflict IP Address 11.11.11.1 on interface Vlan-interface11
+which might have impacts on
+    1. OSPF Conflict IP Address 11.11.11.1
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:57:00 to 2020-06-17 11:57:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Duplicate address 6.6.6.13 on interface Ten-GigabitEthernet2/0/51, sourced from 38ad-8e70-69f9
+    2. BFD Session[6.6.6.1/6.6.6.12] change from UP to DOWN
+    3. OSPF 600 Neighbor 6.6.6.12(Ten-GigabitEthernet2/0/51) down
+which might have impacts on
+    1. IP Address conflict
+    2. OSPF neighbor down
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:58:00 to 2020-06-17 11:58:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Fan 0 failed.
+    2. MAC Maxnumber reached on Ten-GigabitEthernet2/2/2
+which might have impacts on
+    1. MAC Maxnumber reached
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 11:59:00 to 2020-06-17 11:59:59, device 77.1.1.41 encoutered 
+the following events:
+    1. ARP Maxnumber reached on Vlan-interface43
+    2. Vlan-interface43 physical up
+which might have impacts on
+    1. ARP Maxnumber reached
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:00:00 to 2020-06-17 12:00:59, device 77.1.1.41 encoutered 
+the following events:
+    1. ARP entry 19.1.1.2 confict
+which might have impacts on
+    1. ARP entry 19.1.1.2 confict
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:03:00 to 2020-06-17 12:03:59, device 77.1.1.41 encoutered 
+the following events:
+    1. ARP entry 10.2.1.2 confict
+which might have impacts on
+    1. ARP entry 10.2.1.2 confict
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:06:00 to 2020-06-17 12:06:59, device 77.1.1.41 encoutered 
+the following events:
+    1. ARP entry 10.3.1.2 confict
+which might have impacts on
+    1. ARP entry 10.3.1.2 confict
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:09:00 to 2020-06-17 12:09:59, device 77.1.1.41 encoutered 
+the following events:
+    1. ARP entry 10.4.1.2 confict
+which might have impacts on
+    1. ARP entry 10.4.1.2 confict
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:10:00 to 2020-06-17 12:10:59, device 77.1.1.41 encoutered 
+the following events:
+    1. parity/ecc errors occur on slot 6 chip 0
+which might have impacts on
+    1. parity/ecc errors occur
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:12:00 to 2020-06-17 12:12:59, device 77.1.1.41 encoutered 
+the following events:
+    1. parity/ecc errors occur on slot 6 chip 0
+which might have impacts on
+    1. parity/ecc errors occur
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:14:00 to 2020-06-17 12:14:59, device 77.1.1.41 encoutered 
+the following events:
+    1. parity/ecc errors occur on slot 6 chip 0
+which might have impacts on
+    1. parity/ecc errors occur
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:16:00 to 2020-06-17 12:16:59, device 77.1.1.41 encoutered 
+the following events:
+    1. parity/ecc errors occur on slot 6 chip 0
+which might have impacts on
+    1. parity/ecc errors occur
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:18:00 to 2020-06-17 12:18:59, device 77.1.1.41 encoutered 
+the following events:
+    1. parity/ecc errors occur on slot 6 chip 0
+which might have impacts on
+    1. parity/ecc errors occur
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:20:00 to 2020-06-17 12:20:59, device 77.1.1.41 encoutered 
+the following events:
+    1. parity/ecc errors occur on slot 6 chip 0
+which might have impacts on
+    1. parity/ecc errors occur
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:22:00 to 2020-06-17 12:22:59, device 77.1.1.41 encoutered 
+the following events:
+    1. IRF port 1 timeout
+which might have impacts on
+    1. IRF port timeout
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:24:00 to 2020-06-17 12:24:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Memory critical threshold exceeded
+    2. Memory below severe threshold
+which might have impacts on
+    1. Memory critical threshold exceeded
+    2. Memory below severe threshold
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:25:00 to 2020-06-17 12:25:59, device 77.1.1.41 encoutered 
+the following events:
+    1. Not enough resources to complete the operation on slot 2.
+++++++++++++++++++++++++++++++++++++
+
+
+From 2020-06-17 12:26:00 to 2020-06-17 12:26:59, device 77.1.1.41 encoutered 
+the following events:
+    1. OSPF Duplicate router ID 1.1.1.1 on interface M-GigabitEthernet0/0/0
+    2. Not enough resources to complete the operation on slot 2.
+which might have impacts on
+    1. OSPF Duplicate router ID 1.1.1.1
+++++++++++++++++++++++++++++++++++++
+
+
+
+Process finished with exit code -1

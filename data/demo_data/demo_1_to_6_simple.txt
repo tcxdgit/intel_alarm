@@ -1,0 +1,83 @@
+# demo1
+{"timestamp":"2020-06-10T19:42:20.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:20 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down."}
+{"timestamp":"2020-06-10T19:42:20.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:20 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.2 changed to down."}
+{"timestamp":"2020-06-10T19:42:30.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.3950 changed to down."}
+{"timestamp":"2020-06-10T19:42:30.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.69 changed to down."}
+{"timestamp":"2020-06-10T19:42:30.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.164 changed to down."}
+{"timestamp":"2020-06-10T19:42:30.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1.3928 changed to down."}
+{"timestamp":"2020-06-10T19:42:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1 changed to down."}
+{"timestamp":"2020-06-10T19:42:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.1 changed to down."}
+{"timestamp":"2020-06-10T19:42:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.2 changed to down."}
+{"timestamp":"2020-06-10T19:42:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet5/2/2.3 changed to down."}
+{"timestamp":"2020-06-10T19:42:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/4/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet11/2/1 changed to down."}
+{"timestamp":"2020-06-10T19:42:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:42:30 2020 16X-B %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet11/2/1.1 changed to down."}
+
+# demo2
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"212.1.1.210", "message":"<172>Jun 10 19:42:40 2020 75exs_leaf %%10DEV/3/FAN_ABSENT: -Slot=1; Fan 1 is absent."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"212.1.1.209", "message":"<172>Jun 10 19:42:40 2020 75exs_125g_10510x_40_ec %%10DEV/3/FAN_ABSENT: Fan 2 is absent."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"212.1.1.210", "message":"<172>Jun 10 19:42:40 2020 75exs_leaf %%10DEV/3/FAN_ABSENT: -Slot=1; Fan 1 is absent."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"212.1.1.209", "message":"<172>Jun 10 19:42:40 2020 75exs_125g_10510x_40_ec %%10DEV/3/FAN_ABSENT: Fan 2 is absent."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"212.1.1.210", "message":"<172>Jun 10 19:42:40 2020 75exs_leaf %%10DEV/3/FAN_ABSENT: -Slot=1; Fan 1 is absent."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"212.1.1.209", "message":"<172>Jun 10 19:42:40 2020 75exs_125g_10510x_40_ec %%10DEV/3/FAN_ABSENT: Fan 2 is absent."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"212.1.1.210", "message":"<172>Jun 10 19:42:40 2020 75exs_leaf %%10DEV/3/FAN_ABSENT: -Slot=1; Fan 1 is absent."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"212.1.1.209", "message":"<172>Jun 10 19:42:40 2020 75exs_125g_10510x_40_ec %%10DEV/3/FAN_ABSENT: Fan 2 is absent."}
+
+# demo3
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:40 2020 S7503E %%10OPTMOD/4/PHONY_MODULE: -Chassis=1-Slot=2; Ten-GigabitEthernet1/2/0/23: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!"}
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to down."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:40 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:44:50 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:10.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:10 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:20.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:20.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:20.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Tunnel4 changed to up."}
+{"timestamp":"2020-06-10T19:43:20.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to down."}
+{"timestamp":"2020-06-10T19:43:20.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:45:20 2020 S7503E %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Tunnel4 changed to up."}
+
+# demo4
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:46:40 2020 S125G2 %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface HundredGigE1/4/0/1 changed to down."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:46:40 2020 S125G2 %%10IFNET/3/PHY_UPDOWN: Physical state on the interface Vlan-interface11 changed to down."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/6/OSPF_LAST_NBR_DOWN: OSPF 1 Last neighbor down event: Router ID: 1.2.3.4 Local address: 11.1.1.3 Remote address: 11.1.1.1 Reason: Ospf_ifachange."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG_REASON: OSPF 1 Area 0.0.0.0 Router 3.3.3.3(Vlan11) CPU usage: 4%, IfMTU: 1500, Neighbor address: 11.1.1.1, NbrID:1.2.3.4 changed from Full to DOWN because the interface went down or MTU changed at 2020-06-11 20:17:54:974. Last 4 hello packets received at:   2020-06-11 20:17:20:120   2020-06-11 20:17:30:120   2020-06-11 20:17:40:120   2020-06-11 20:17:50:120 Last 4 hello packets sent at:    2020-06-11 20:17:24:215   2020-06-11 20:17:34:215   2020-06-11 20:17:44:215   2020-06-11 20:17:54:215"}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:46:40 2020 S125G2 %%10OSPF/5/OSPF_NBR_CHG: OSPF 1 Neighbor 11.1.1.1(Vlan-interface11) changed from FULL to DOWN."}
+{"timestamp":"2020-06-10T19:43:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:46:40 2020 S125G2 %%10IFNET/5/LINK_UPDOWN: Line protocol state on the interface Vlan-interface11 changed to down."}
+
+# demo5
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:47:40 2020 12508 W %%10DEV/2/BOARD_STATE_FAULT: -MDC=1; Board state changed to Fault on slot 2, type is LSXM1CGQ36TD1."}
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:47:40 2020 12508 W %%10IFNET/3/PHY_UPDOWN: -MDC=1; Physical state on the interface Vlan-interface4094 changed to down."}
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:47:40 2020 12508 W %%10OSPF/5/OSPF_NBR_CHG: -MDC=1; OSPF 1 Neighbor 222.1.1.2(Vlan-interface4094) changed from FULL to DOWN."}
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:47:40 2020 12508 W %%10IFNET/5/LINK_UPDOWN: -MDC=1; Line protocol state on the interface Vlan-interface4094 changed to down."}
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:47:40 2020 12508 W %%10OSPFV3/5/OSPFv3_NBR_CHG: -MDC=1; OSPFv3 1 Neighbor 2.2.2.2(Vlan-interface4094) received KillNbr and its state from FULL to DOWN."}
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:47:40 2020 12508 W %%10ISIS/5/ISIS_NBR_CHG: -MDC=1; IS-IS 1, Level-1 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean."}
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:47:40 2020 12508 W %%10ISIS/5/ISIS_NBR_CHG: -MDC=1; IS-IS 1, Level-2 adjacency 0000.0000.0001 (Vlan-interface4094), state changed to DOWN, Reason: circuit data clean."}
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:47:40 2020 12508 W %%10DEV/2/FAN_FAILED: -MDC=1; Fan 1 failed."}
+{"timestamp":"2020-06-10T19:44:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:47:40 2020 12508 W %%10DEV/5/BOARD_REBOOT: -MDC=1; Board is rebooting on slot 2."}
+
+# demo6
+{"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2234 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
+{"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-224f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
+{"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222b in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
+{"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-222f in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
+{"timestamp":"2020-06-10T19:45:40.000Z", "host":"192.28.200.201", "message":"<172>Jun 10 19:48:40 2020 12508 W %%10MAC/4/MAC_NOTIFICATION: -MDC=1; MAC address 0000-0022-2231 in VLAN 2048 has moved from port XGE4/0/5:1 to port XGE4/0/5:2 for 1 times."}
